@@ -51,6 +51,7 @@ practice-one
     |-- index.html
     |-- main.css
     |-- process-html.js
+|-- .editorconfig.js
 |-- .gitignore
 |-- package.json
 |-- pnpm-lock.yaml
