@@ -1,14 +1,10 @@
 {
-  "name": "practice-one",
+  "name": "ninja-mail",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Build langding page NinjaMail",
   "scripts": {
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {}
+  "license": "ISC"
 }
