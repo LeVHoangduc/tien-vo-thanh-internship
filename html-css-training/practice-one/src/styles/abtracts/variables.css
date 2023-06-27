@@ -1,0 +1,33 @@
+:root{
+  /* color */
+  --primary-color: #4ba87d;
+  --secondary-color: #ffffff;
+
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+  
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #4ba87d;
+  /* end color */
+
+  /* sizing */
+  --fs-x-small: 16px;
+  --fs-small: 17px;
+  --fs-medium: 19px;
+  --fs-btn: 21px;
+  --fs-large: 34px;
+  --fs-x-large: 44px;
+  --fs-xx-large: 59px;
+  --fs-huge: 60px;
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-axtra-bold: 800;
+  --fw-black: 900;
+  /* end sizing */
+
+  /* font */
+  --primary-font: 'Raleway', sans-serif;
+  --secondary-font: 'Playfair Display', serif;
+  /* end font */
+}
