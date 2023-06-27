@@ -1,0 +1,17 @@
+{
+  "name": "ninja-mail",
+  "version": "1.0.0",
+  "description": "Build langding page NinjaMail",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "posthtml": "^0.16.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "posthtml-include": "^1.7.4"
+  }
+}
