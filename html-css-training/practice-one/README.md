@@ -49,7 +49,7 @@ practice-one
             |-- ...
     |-- .posthtmlrc.js
     |-- index.html
-    |-- main.css
+    |-- index.css
     |-- process-html.js
 |-- .editorconfig.js
 |-- .gitignore
