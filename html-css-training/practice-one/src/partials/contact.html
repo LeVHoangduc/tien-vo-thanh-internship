@@ -1,0 +1,41 @@
+<section class="contacts">
+  <div class="contacts-container">
+
+    <include src="partials/components/contact-card.html" locals='{
+      "card_name": "Frankie",
+      "card_year": "Member since 2016",
+    }'>
+    </include>
+
+    <include src="partials/components/contact-card.html" locals='{
+      "card_name": "Frankie",
+      "card_year": "Member since 2016",
+    }'>
+    </include>
+
+    <include src="partials/components/contact-card.html" locals='{
+      "card_name": "Frankie",
+      "card_year": "Member since 2016",
+    }'>
+    </include>
+
+  </div>
+  <div class="contacts-content">
+    <h3 class="contacts-title">
+      Learn how others are reaching their audience easier than ever
+      before.
+    </h3>
+    <form action="#" class="form-controller">
+      <div class="form-info">
+        <input type="email" name="email" class="form-control" id="form-control" placeholder="Enter your email" />
+        <p class="form-message">Thanks! Email received.</p>
+      </div>
+
+      <include src="partials/components/contact-button.html" locals='{
+        "text": "JOIN OUR LIST"
+      }'>
+      </include>
+
+    </form>
+  </div>
+</section>
