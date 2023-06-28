@@ -57,3 +57,28 @@ practice-one
 |-- package.json
 |-- pnpm-lock.yaml
 |-- README.md
+
+## Project convention: ##
+### Branch name format
+`<prefix>/short-desc
+`
+
+- ex: feat/header-section
+
+- ex: fix/header-section
+
+### Commit format: 
+
+`<type>[optional scope]: <description>
+`
+
+- ex: feat: allow provided config object to extend other configs
+- ex: fix: prevent racing of requests
+
+### PR format:
+
+ `Title: <prefix>/short-desc`
+
+- ex: Feat/header-section
+
+- ex: Fix/header-section
