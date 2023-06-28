@@ -1,12 +1,12 @@
 :root{
   /* color */
   --primary-color: #4ba87d;
-  --secondary-color: #ffffff;
+  --secondary-color: #fff;
 
-  --primary-text-color: #000000;
-  --secondary-text-color: #ffffff;
+  --primary-text-color: #000;
+  --secondary-text-color: #fff;
   
-  --primary-bg-color: #ffffff;
+  --primary-bg-color: #fff;
   --secondary-bg-color: #4ba87d;
   /* end color */
 
@@ -27,7 +27,7 @@
   /* end sizing */
 
   /* font */
-  --primary-font: 'Raleway', sans-serif;
-  --secondary-font: 'Playfair Display', serif;
+  --primary-font-family: 'Raleway', sans-serif;
+  --secondary-font-family: 'Playfair Display', serif;
   /* end font */
 }
