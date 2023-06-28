@@ -52,7 +52,7 @@
   height: 5px;
   background-color: var(--primary-color);
   display: none;
-  transition: all 3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .header-nav-link:hover::before {
@@ -65,4 +65,5 @@
   background-color: var(--primary-color);
   padding: 10px 20px;
   font-weight: var(--fw-axtra-bold);
+  text-transform: uppercase;
 }
