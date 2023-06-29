@@ -37,32 +37,25 @@
   letter-spacing: 1.275px;
   line-height: 20px;
   font-size: var(--fs-small);
+  padding-bottom: 6px;
   text-transform: uppercase;
-  position: relative;
   min-width: 110px;
   display: block;
   text-align: center;
+  transition: all 0.3s ease ;
+  border-bottom: 5px solid transparent;
+
 }
 
-.header-nav-link::before {
-  position: absolute;
-  content: "";
-  bottom: -10px;
-  width: 100%;
-  height: 5px;
-  background-color: var(--primary-color);
-  display: none;
-  transition: all 3s ease-in-out;
-}
-
-.header-nav-link:hover::before {
-  display: flex;
-  justify-content: center;
+.header-nav-link:hover{
+  border-bottom: 5px solid var(--primary-color);
 }
 
 .header-nav-auth {
-  color: #fff;
-  background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
   padding: 10px 20px;
-  font-weight: var(--fw-axtra-bold);
+  font-weight: var(--fw-extra-bold);
+  text-transform: uppercase;
+  font-size: var(--fs-small);
 }
