@@ -36,7 +36,7 @@
 .hero-photo {
     width: 680px;
     height: 383px;
-    filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
+    filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.2));
     transform: translateX(-103px);
 }
 
@@ -48,14 +48,15 @@
 
 .btn-hero-wrapper {
   margin-top: 35px;
-  gap: 0 45px;
+  display: flex;
+  gap: 45px;
 }
 
-.btn-hero-demo{
-  background-color: #fff;
+.btn-hero-demo {
+  background-color: var(--primary-bg-color);
   border: 3px solid var(--primary-color);
   color: var(--primary-color);
   height: 60px;
   line-height: 25px;
-  letter-spacing: 2.1px;
+  letter-spacing: 2px;
 }

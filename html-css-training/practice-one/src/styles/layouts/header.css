@@ -2,7 +2,7 @@
   #HEADER CSS
 \*------------------------------------*/
 .header,
-.header-nav-list{
+.header-nav-list {
   display: flex;
   align-items: center;
 }
@@ -17,7 +17,7 @@
   height: 64px;
 }
 
-.header-logo-img{
+.header-logo-img {
     height: auto;
     width: auto;
     object-fit: cover;
@@ -43,19 +43,21 @@
   text-align: center;
   transition: all 0.3s ease ;
   border-bottom: 5px solid transparent;
-
+  text-transform: uppercase;
 }
 
-.header-nav-link:hover{
+.header-nav-link:hover {
   border-bottom: 5px solid var(--primary-color);
 }
 
 .header-nav-auth {
   color: var(--secondary-text-color);
   background-color: var(--secondary-bg-color);
-  padding: 10px 20px;
   font-weight: var(--fw-extra-bold);
-  text-transform: upercase;
+  text-transform: uppercase;
   font-size: var(--fs-small);
+  padding: 10px 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
 }
 
