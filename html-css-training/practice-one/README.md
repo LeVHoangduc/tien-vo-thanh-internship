@@ -41,7 +41,6 @@ Introduce dashboard app landing page
 
 - ex: Fix/header-section
 
-
 ## Folder structure ##
 practice-one
 ~~~
