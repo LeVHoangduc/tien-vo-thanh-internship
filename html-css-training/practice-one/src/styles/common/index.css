@@ -21,11 +21,18 @@ h1,h2,h3{
 .btn{
   font-size: var(--fs-btn);
   font-weight: var(--fw-black);
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 65px;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 1.05px;
 }
 
 .main-content{
-  /* max-width: 1440px; */
+  max-width: 1440px;
   background-image: url(../../assets/images/backgound.png);
   background-size: cover;
   margin: auto;

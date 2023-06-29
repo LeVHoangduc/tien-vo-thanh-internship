@@ -13,7 +13,7 @@
 }
 
 .hero-container {
-  margin-top: 120px;
+  margin-top: 115px;
 }
 
 .hero-content {
@@ -37,7 +37,7 @@
     width: 680px;
     height: 383px;
     filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
-    transform: translateX(-67px);
+    transform: translateX(-103px);
 }
 
 .hero-img {
@@ -51,19 +51,11 @@
   gap: 0 45px;
 }
 
-.btn-hero {
-  min-width: 200px;
-  color: var(--secondary-text-color);
-  background-color: var(--secondary-bg-color);
-  line-height: 25px;
-  letter-spacing: 1.05px;
-  text-align: center; 
-  text-transform: uppercase;
-  padding: 20px 0;
-}
-
-.btn-hero-demo {
+.btn-hero-demo{
   background-color: #fff;
   border: 3px solid var(--primary-color);
   color: var(--primary-color);
+  height: 60px;
+  line-height: 25px;
+  letter-spacing: 2.1px;
 }
