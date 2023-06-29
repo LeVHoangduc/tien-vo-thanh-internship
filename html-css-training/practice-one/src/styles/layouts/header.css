@@ -33,12 +33,11 @@
 
 .header-nav-link {
   color: var(--primary-text-color);
-  font-weight: var(--fw-axtra-bold);
+  font-weight: var(--fw-extra-bold);
   letter-spacing: 1.275px;
   line-height: 20px;
   font-size: var(--fs-small);
   padding-bottom: 6px;
-  text-transform: uppercase;
   min-width: 110px;
   display: block;
   text-align: center;
@@ -56,6 +55,7 @@
   background-color: var(--secondary-bg-color);
   padding: 10px 20px;
   font-weight: var(--fw-extra-bold);
-  text-transform: uppercase;
+  text-transform: upercase;
   font-size: var(--fs-small);
 }
+
