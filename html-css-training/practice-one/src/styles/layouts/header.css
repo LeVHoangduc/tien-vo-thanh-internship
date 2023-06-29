@@ -61,7 +61,7 @@
 }
 
 .header-nav-auth {
-  color: #fff;
+  color: var(--secondary-text-color);
   background-color: var(--primary-color);
   padding: 10px 20px;
   font-weight: var(--fw-axtra-bold);
