@@ -16,6 +16,7 @@ Introduce dashboard app landing page
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
 
+
 ## Project convention: ##
 ### Branch name format
 `<prefix>/short-desc
@@ -82,4 +83,5 @@ practice-one
 |-- package.json
 |-- pnpm-lock.yaml
 |-- README.md
+
 
