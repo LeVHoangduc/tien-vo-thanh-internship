@@ -55,7 +55,7 @@
   color: var(--secondary-text-color);
   background-color: var(--secondary-bg-color);
   padding: 10px 20px;
-  font-weight: var(--fw-axtra-bold);
+  font-weight: var(--fw-extra-bold);
   text-transform: uppercase;
   font-size: var(--fs-small);
 }
