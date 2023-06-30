@@ -52,11 +52,16 @@
   gap: 45px;
 }
 
+.btn-try-now {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  border: none;
+}
+
 .btn-hero-demo {
   background-color: var(--primary-bg-color);
   border: 3px solid var(--primary-color);
   color: var(--primary-color);
-  height: 60px;
   line-height: 25px;
   letter-spacing: 2px;
 }
