@@ -7,17 +7,10 @@
         just a few clicks.
       </p>
       <div class="btn-hero-wrapper">
-
-        <include src="partials/components/tabs.html" locals='{
-          "text": "TRY NOW"
-        }'>
+        <include src="partials/components/button.html" locals='{"className": "btn-try-now", "text": "try now"}'>
         </include>
-
-        <include src="partials/components/tabs.html" locals='{
-          "text": "GET A DEMO"
-        }'>
+        <include src="partials/components/button.html" locals='{"className": "btn-hero-demo", "text": "get a demo"}'>
         </include>
-
       </div>
     </div>
     <div class="hero-photo">

@@ -13,7 +13,7 @@
 }
 
 .hero-container {
-  margin-top: 120px;
+  margin-top: 115px;
 }
 
 .hero-content {
@@ -36,8 +36,8 @@
 .hero-photo {
     width: 680px;
     height: 383px;
-    filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
-    transform: translateX(-67px);
+    filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.2));
+    transform: translateX(-103px);
 }
 
 .hero-img {
@@ -48,22 +48,20 @@
 
 .btn-hero-wrapper {
   margin-top: 35px;
-  gap: 0 45px;
+  display: flex;
+  gap: 45px;
 }
 
-.btn-hero {
-  min-width: 200px;
-  color: var(--secondary-text-color);
+.btn-try-now {
   background-color: var(--secondary-bg-color);
-  line-height: 25px;
-  letter-spacing: 1.05px;
-  text-align: center; 
-  text-transform: uppercase;
-  padding: 20px 0;
+  color: var(--secondary-text-color);
+  border: none;
 }
 
 .btn-hero-demo {
-  background-color: #fff;
+  background-color: var(--primary-bg-color);
   border: 3px solid var(--primary-color);
   color: var(--primary-color);
+  line-height: 25px;
+  letter-spacing: 2px;
 }
