@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #COMMON CSS
+\*------------------------------------*/
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-medium);
+}
+
+h1,h2,h3 {
+  font-family: var(--secondary-font-family);
+  font-weight: var(--fw-black);
+}
+
+.btn {
+  font-size: var(--fs-btn);
+  font-weight: var(--fw-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 65px;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.main-content {
+  max-width: 1440px;
+  background-image: url(../../assets/images/backgound.png);
+  background-size: cover;
+  margin: auto;
+}

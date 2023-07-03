@@ -1,0 +1,63 @@
+/*------------------------------------*\
+  #HEADER CSS
+\*------------------------------------*/
+.header,
+.header-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.header-logo {
+  cursor: pointer;
+  height: 64px;
+}
+
+.header-logo-img {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+.header-nav-list {
+  gap: 0 38px;
+}
+
+.header-nav-item {
+  padding: 38px 0 44px 0;
+}
+
+.header-nav-link {
+  color: var(--primary-text-color);
+  font-weight: var(--fw-extra-bold);
+  letter-spacing: 1.275px;
+  line-height: 20px;
+  font-size: var(--fs-small);
+  padding-bottom: 6px;
+  min-width: 110px;
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease ;
+  border-bottom: 5px solid transparent;
+  text-transform: uppercase;
+}
+
+.header-nav-link:hover {
+  border-bottom: 5px solid var(--primary-color);
+}
+
+.header-nav-auth {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: var(--fw-extra-bold);
+  text-transform: uppercase;
+  font-size: var(--fs-small);
+  padding: 10px 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+

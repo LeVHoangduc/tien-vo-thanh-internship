@@ -1,0 +1,67 @@
+/*------------------------------------*\
+  #HERO CSS
+\*------------------------------------*/
+.hero,
+.hero-container,
+.btn-hero-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  padding-bottom: 70px;
+}
+
+.hero-container {
+  margin-top: 115px;
+}
+
+.hero-content {
+  min-width: 510px;
+  z-index: 10;
+}
+
+.hero-title {
+    color: #000;
+    font-size: var(--fs-xx-large);
+    line-height: 71px;
+}
+
+.hero-text {
+  font-size: var(--font-size-normal);
+  line-height: 26px;
+  margin-top: 23px;
+}
+
+.hero-photo {
+    width: 680px;
+    height: 383px;
+    filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.2));
+    transform: translateX(-103px);
+}
+
+.hero-img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-hero-wrapper {
+  margin-top: 35px;
+  display: flex;
+  gap: 45px;
+}
+
+.btn-try-now {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+  border: none;
+}
+
+.btn-hero-demo {
+  background-color: var(--primary-bg-color);
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  line-height: 25px;
+  letter-spacing: 2px;
+}

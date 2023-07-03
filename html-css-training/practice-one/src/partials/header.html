@@ -1,0 +1,21 @@
+<header class="header">
+  <div class="header-logo">
+    <img src="./assets/images/logo.png" alt="logo" class="header-logo-img" />
+  </div>
+  <nav class="header-nav">
+    <ul class="header-nav-list">
+
+      <include src="partials/components/nav-link.html" locals='{
+        "nav_link_1": "features",
+        "nav_link_2": "pricing",
+        "nav_link_3": "services",
+        "nav_link_4": "partners"
+      }'>
+      </include>
+
+      <li class="header-nav-item">
+        <a class="header-nav-auth" href="#">sign up free</a>
+      </li>
+    </ul>
+  </nav>
+</header>
