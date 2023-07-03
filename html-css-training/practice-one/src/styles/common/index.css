@@ -35,7 +35,6 @@ h1,h2,h3 {
 }
 
 .main-content {
-  /* max-width: 1440px; */
   background-image: url(../../assets/images/backgound.png);
   background-size: cover;
   margin: auto;
