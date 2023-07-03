@@ -1,0 +1,70 @@
+/*------------------------------------*\
+  #CAMPAIGNS CSS
+\*------------------------------------*/
+.campaigns {
+  margin-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  gap:0 47px;
+}
+
+.campaigns-card {
+  background-color: var(--primary-bg-color) ;
+}
+
+.campaigns-card-img {
+  width: auto;
+  height: auto;
+  box-shadow: lightgray 0px 0px;
+}
+
+.campaigns-card-body {
+  padding: 24px 39px 24px 30px;
+  text-align: left;
+}
+
+.campaigns-card-text {
+  color: var(--primary-text-color);
+  font-size: var(--fs-x-small);
+  font-weight: var(--fw-medium);
+  line-height: 26px;
+}
+
+.campaigns-card:nth-child(2) {
+  transform: translateY(88px);
+}
+
+.campaigns-card:nth-child(3) {
+  max-width: 365px;
+  transform: translateY(138px);
+  background-color: transparent;
+}
+
+.campaigns-card-title {
+  color: var(--primary-text-color);
+  font-size: var(--fs-x-large);
+  line-height: 48px;
+  margin-bottom: 22px;
+}
+
+.btn-learn-more {
+  font-weight: var(--fw-extra-bold);
+  font-size: var(--fs-x-small);
+  line-height: 19px;
+  color: var(--primary-color);
+  margin-top: 22px;
+  display: block;
+}
+
+.campaigns-card-body-proven {
+  min-width: 365px;
+  padding: 0;
+}
+
+.campaigns-card-text-proven {
+  color: var(--primary-text-color);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-medium);
+  line-height: 26px;
+  padding-right: 44px;
+}

@@ -28,10 +28,14 @@ h1,h2,h3 {
   height: 65px;
   text-transform: uppercase;
   line-height: 25px;
+  cursor: pointer;
+  background-color: var(--primary-bg-color);
+  border: none;
+  color: var(--primary-color);
 }
 
 .main-content {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   background-image: url(../../assets/images/backgound.png);
   background-size: cover;
   margin: auto;
