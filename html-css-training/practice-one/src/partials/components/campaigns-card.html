@@ -4,6 +4,8 @@
     <p class="campaigns-card-text card-text-launch">
       {{card_text}}
     </p>
-    <a href="#" class="btn-learn-more">Learn more ></a>
+    <include src="partials/components/learn-more.html"
+      locals='{"link": "#", "className": "btn-learn-more", "text": "Learn more"}'>
+    </include>
   </div>
 </article>
