@@ -1,0 +1,59 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer-container">
+      <include src="partials/components/logo.html" locals='{
+        "className": "footer-logo",
+        "logo": "./assets/images/logo.png"
+      }'>
+      </include>
+      <ul class="footer-links">
+        <div class="footer-items">
+          <include src="partials/components/footer-link.html" locals='{
+            "footer_link_1": "features",
+            "footer_link_2": "pricing",
+            "footer_link_3": "services",
+            "footer_link_4": "partners",
+            "footer_link_5": "",
+            "footer_link_6": ""
+          }'>
+          </include>
+        </div>
+        <div class="footer-items">
+          <include src="partials/components/footer-link.html" locals='{
+            "footer_link_1": "about us",
+            "footer_link_2": "tutorials",
+            "footer_link_3": "resources",
+            "footer_link_4": "help center",
+            "footer_link_5": "templates",
+            "footer_link_6": "case studies"
+          }'>
+          </include>
+        </div>
+        <div class="footer-items">
+          <include src="partials/components/footer-link.html" locals='{
+            "footer_link_1": "medium",
+            "footer_link_2": "twitter",
+            "footer_link_3": "facebook",
+            "footer_link_4": "instagram",
+            "footer_link_5": "linkedIn",
+            "footer_link_6": ""
+          }'>
+          </include>
+        </div>
+        <div class="footer-items">
+          <include src="partials/components/footer-link.html" locals='{
+            "footer_link_1": "contact us",
+            "footer_link_2": "slack",
+            "footer_link_3": "jobs",
+            "footer_link_4": "",
+            "footer_link_5": "",
+            "footer_link_6": ""
+          }'>
+          </include>
+        </div>
+      </ul>
+    </div>
+    <include src="partials/components/footer-bottom.html">
+    </include>
+  </div>
+</footer>
