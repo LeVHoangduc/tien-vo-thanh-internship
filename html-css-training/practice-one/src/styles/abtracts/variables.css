@@ -13,6 +13,7 @@
   /* end color */
 
   /* sizing */
+  --fs-normal : 15px;
   --fs-x-small: 16px;
   --fs-small: 17px;
   --fs-medium: 19px;
