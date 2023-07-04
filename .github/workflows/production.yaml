@@ -12,8 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
-        working-directory: ./html-css-training/practice-one
         run: npm install --global vercel@latest
+      - name: Install pnpm
+        run: npm install -g pnpm
       - name: Pull Vercel Environment Information
         working-directory: ./html-css-training/practice-one
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
