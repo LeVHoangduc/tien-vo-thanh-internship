@@ -10,8 +10,8 @@
 .contact {
   justify-content: center;
   align-items: center;
-  padding: 133px 0 52px 0;
   gap: 37px 0;
+  margin-top: 133px;
 }
 
 .contact-container {
