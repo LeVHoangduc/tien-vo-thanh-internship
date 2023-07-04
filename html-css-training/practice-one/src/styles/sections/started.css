@@ -1,0 +1,16 @@
+.started {
+  height: 336px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.started-tile {
+  color: var(--secondary-text-color);
+  text-align: center;
+  font-size: var(--fs-huge);
+  line-height: 80px;
+  margin-bottom: 40px;
+}
