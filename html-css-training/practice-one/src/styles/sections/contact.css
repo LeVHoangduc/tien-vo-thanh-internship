@@ -81,11 +81,11 @@
   gap: 20px;
 }
 
-.form-input{
+.form-input {
   width: 420px;
   height: 65px;
   border-radius: 5px;
-  border: 1px solid #9F9F9F;
+  border: 1px solid var(--border-color);
   overflow: hidden;
 }
 
@@ -114,9 +114,3 @@
   letter-spacing: 1px;
 }
 
-.btn-submit {
-  border: none;
-  width: 221px;
-  background-color: var(--secondary-bg-color);
-  color: var( --secondary-text-color);
-}

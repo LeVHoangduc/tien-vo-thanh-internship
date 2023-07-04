@@ -34,6 +34,13 @@ h1,h2,h3 {
   color: var(--primary-color);
 }
 
+.btn-submit {
+  border: none;
+  width: 221px;
+  background-color: var(--secondary-bg-color);
+  color: var( --secondary-text-color);
+}
+
 .main-content {
   background-image: url(../../assets/images/backgound.png);
   background-size: cover;
