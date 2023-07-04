@@ -1,4 +1,4 @@
-:root{
+:root {
   /* color */
   --primary-color: #4ba87d;
   --secondary-color: #fff;
@@ -8,6 +8,8 @@
   
   --primary-bg-color: #fff;
   --secondary-bg-color: #4ba87d;
+
+  --border-color: #9F9F9F;
   /* end color */
 
   /* sizing */
