@@ -1,0 +1,26 @@
+/*------------------------------------*\
+  #CAMPAIGNS CSS
+\*------------------------------------*/
+.brand {
+  margin-top: 75px;
+  padding-bottom: 146px;
+}
+
+.brand-title {
+  text-align: center;
+  font-size: var(--fs-x-large);
+  line-height: 48px;
+  padding: 0 300px;
+}
+
+.brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.brand-img {
+  width: auto;
+  height: auto;
+}
