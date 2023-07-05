@@ -12,7 +12,7 @@ Introduce dashboard app landing page
 
 
 ## Information: ##
-- Time line: 21/06/2023 -> 28/06/2023
+- Time line: 21/06/2023 -> 07/05/2023
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
 

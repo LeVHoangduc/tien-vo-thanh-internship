@@ -1,20 +1,22 @@
 <header class="header">
-  <div class="header-logo">
-    <img src="./assets/images/logo.png" alt="logo" class="header-logo-img" />
-  </div>
+  <a href="javascript:void(0)" class="header-logo">
+    <include src="partials/components/logo.html" locals='{
+      "className": "header-logo-img",
+      "logo": "./assets/images/logo.png"
+    }'>
+  </a>
   <nav class="header-nav">
     <ul class="header-nav-list">
-
       <include src="partials/components/nav-item.html" locals='{
+        "link": "javascript:void(0)",
         "nav_link_1": "features",
         "nav_link_2": "pricing",
         "nav_link_3": "services",
         "nav_link_4": "partners"
       }'>
       </include>
-
       <li class="header-nav-item">
-        <a class="header-nav-auth" href="#">sign up free</a>
+        <a class="header-nav-auth" href="javascript:void(0)">sign up free</a>
       </li>
     </ul>
   </nav>

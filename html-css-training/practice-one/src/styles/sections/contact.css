@@ -20,17 +20,6 @@
   gap: 0 32px;
 }   
 
-.contact-member-item {
-  width: 342px;
-  height: 239px;
-  justify-content: flex-end;
-  background-position: center;
-}
-
-.contact-member-content{
-  padding: 25px;
-}
-
 .contact-member-item:nth-child(1) {
   background-image: url('../../assets/images/frankie.jpg');
 }
@@ -41,20 +30,6 @@
 
 .contact-member-item:nth-child(3) {
   background-image: url('../../assets/images/elayne.jpg');
-}
-
-.contact-member-name {
-  color: var(--secondary-text-color);
-  font-size: var(--fs-large);
-  font-weight: var(--fw-black);
-  line-height: 40px;
-}
-
-.contact-member-desc {
-  color: var(--secondary-text-color);
-  font-size: var(--fs-medium);
-  font-weight: var(--fw-bold);
-  line-height: 22px;
 }
 
 .contact-content {
