@@ -28,7 +28,7 @@
 }
 
 .customer-heading {
-  color: var(--secondary-text-color);
+  color: var(--white-text-color);
   font-size: var(--fs-huge);
   font-weight: var(--fw-black);
   line-height: 80px;

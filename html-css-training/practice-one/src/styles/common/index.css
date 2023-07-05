@@ -31,13 +31,13 @@ h1,h2,h3 {
   cursor: pointer;
   background-color: var(--primary-bg-color);
   border: none;
-  color: var(--primary-color);
+  color: var(--secondary-text-color);
   transition: all 0.3s ease;
 }
 
 .btn:hover {
   background-color: var(--secondary-bg-color);
-  color: var(--secondary-text-color);
+  color: var(--white-text-color);
   border: 1px solid var(--secondary-color);
 }
 
@@ -45,12 +45,12 @@ h1,h2,h3 {
   border: none;
   width: 221px;
   background-color: var(--secondary-bg-color);
-  color: var( --secondary-text-color);
+  color: var( --white-text-color);
 }
 
 .btn-submit:hover{
   background-color: transparent;
-  color: var(--primary-color);
+  color: var(--secondary-text-color);
   border: 1px solid var(--primary-color);
 }
 
