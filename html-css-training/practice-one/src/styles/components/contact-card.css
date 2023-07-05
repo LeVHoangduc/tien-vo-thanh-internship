@@ -1,0 +1,30 @@
+.contact-member-item {
+  width: 342px;
+  height: 239px;
+  justify-content: flex-end;
+  background-position: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-member-item:hover {
+  transform: scale(1.04);
+}
+
+.contact-member-content {
+  padding: 25px;
+}
+
+.contact-member-name {
+  color: var(--secondary-text-color);
+  font-size: var(--fs-large);
+  font-weight: var(--fw-black);
+  line-height: 40px;
+}
+
+.contact-member-desc {
+  color: var(--secondary-text-color);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-bold);
+  line-height: 22px;
+}

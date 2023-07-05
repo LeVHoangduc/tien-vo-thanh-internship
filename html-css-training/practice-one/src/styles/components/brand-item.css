@@ -1,0 +1,13 @@
+.brand-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+  padding: 0 94px;
+}
+
+.brand-img {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}

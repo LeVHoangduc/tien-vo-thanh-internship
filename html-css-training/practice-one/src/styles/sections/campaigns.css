@@ -8,28 +8,6 @@
   gap: 0 47px;
 }
 
-.campaigns-card {
-  background-color: var(--primary-bg-color) ;
-}
-
-.campaigns-card-img {
-  width: auto;
-  height: auto;
-  box-shadow: lightgray 0px 0px;
-}
-
-.campaigns-card-body {
-  padding: 24px 39px 24px 30px;
-  text-align: left;
-}
-
-.campaigns-card-text {
-  color: var(--primary-text-color);
-  font-size: var(--fs-x-small);
-  font-weight: var(--fw-medium);
-  line-height: 26px;
-}
-
 .campaigns-card:nth-child(2) {
   transform: translateY(88px);
 }
@@ -45,15 +23,6 @@
   font-size: var(--fs-x-large);
   line-height: 48px;
   margin-bottom: 22px;
-}
-
-.btn-learn-more {
-  font-weight: var(--fw-extra-bold);
-  font-size: var(--fs-x-small);
-  line-height: 19px;
-  color: var(--primary-color);
-  margin-top: 22px;
-  display: block;
 }
 
 .campaigns-card-body-proven {

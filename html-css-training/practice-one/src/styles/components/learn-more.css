@@ -1,0 +1,13 @@
+.btn-learn-more {
+  font-weight: var(--fw-extra-bold);
+  font-size: var(--fs-x-small);
+  line-height: 19px;
+  color: var(--primary-color);
+  margin-top: 22px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.btn-learn-more:hover{
+  opacity: 0.8;
+}
