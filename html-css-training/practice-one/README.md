@@ -42,7 +42,7 @@ Introduce dashboard app landing page
 
 - ex: Fix/header-section
 
-- Prerequisites: Nodejs, pnpm
+### Prerequisites: Nodejs, pnpm
 ### Guide:
 - cd vô folder project
 - install package: pnpm install
