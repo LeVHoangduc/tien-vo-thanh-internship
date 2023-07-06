@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page components</title>
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="./component.css">
+</head>
+
+<body>
+  <div class="components">
+    <h1 class="components-heading">Page components</h1>
+
+    <!-- start component logo -->
+    <div class="component">
+      <h4 class="component-title">Component logo</h4>
+      <include src="partials/components/logo.html" locals='{
+        "className": "header-logo-img",
+        "logo": "../assets/images/logo.png"
+      }'>
+      </include>
+    </div>
+
+    <!-- start component item link -->
+    <div class="component">
+      <h4 class="component-title">Component item-link</h4>
+      <include src="partials/components/item-link.html" locals='{
+        "className": "header-nav-link",
+        "link": "javascript:void(0)",
+        "text": "pricing"
+        }'>
+      </include>
+    </div>
+
+    <!-- start component  button-->
+    <div class="components">
+      <h4 class="component-title">Component button</h4>
+      <include src="partials/components/button.html" locals='{"className": "btn-hero-demo", "text": "get a demo"}'>
+      </include>
+    </div>
+
+    <!-- start component campaigns-card -->
+    <div class="components">
+      <h4 class="component-title">Component campaigns-card</h4>
+      <include src="partials/components/campaigns-card.html" locals='{
+        "card_img": "../assets/images/team.jpg",
+        "card_text": "Start building and sharing with your team today. NinjaMail is renowned for its industry leading team collaboration tools."
+      }'>
+      </include>
+    </div>
+
+    <!-- start component learn more -->
+    <div class="component">
+      <h4 class="component-title">Component learn-more</h4>
+      <include src="partials/components/learn-more.html" locals='{
+        "link": "javascript:void(0)", "className": "btn-learn-more", "text": "Learn more"}'>
+      </include>
+    </div>
+
+    <!-- start component contact card-->
+    <div class="component">
+      <h4 class="component-title">Component contact</h4>
+      <include src="partials/components/contact-card.html" locals='{
+        "card_name": "Frankie",
+        "card_year": "Member since 2016"
+      }'>
+      </include>
+    </div>
+  </div>
+</body>
+
+</html>

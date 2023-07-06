@@ -1,0 +1,41 @@
+/*------------------------------------*\
+  #FOOTER CSS
+\*------------------------------------*/
+.footer {
+  padding: 79px 0 39px 0;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0 94px 74px 94px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-text-color);
+  font-size: var(--fs-normal);
+  font-weight: var(--fw-bold);
+  line-height: 18px;
+  padding: 39px 94px 0 94px;
+}
+
+.footer-bottom-items {
+  display: flex;
+  gap: 0 35px;
+}

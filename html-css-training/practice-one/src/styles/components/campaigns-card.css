@@ -1,0 +1,32 @@
+/*------------------------------------*\
+  #CAMPAIGNS-CARD CSS
+\*------------------------------------*/
+.campaigns-card {
+  width: 320px;
+  height: max-content;
+  background-color: var(--primary-bg-color) ;
+}
+
+.campaigns-card-img-wrapper {
+  width: 100%;
+  height: 260px;
+}
+
+.campaigns-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: lightgray 0px 0px;
+}
+
+.campaigns-card-body {
+  padding: 24px 39px 24px 30px;
+  text-align: left;
+}
+
+.campaigns-card-text {
+  color: var(--primary-text-color);
+  font-size: var(--fs-x-small);
+  font-weight: var(--fw-medium);
+  line-height: 26px;
+}

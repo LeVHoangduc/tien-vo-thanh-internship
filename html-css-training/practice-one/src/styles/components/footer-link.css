@@ -1,0 +1,10 @@
+/*------------------------------------*\
+  #FOOTER-LINK CSS
+\*------------------------------------*/
+.footer-link {
+  color: var(--primary-text-color);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-bold);
+  line-height: 22px;
+  text-transform: capitalize;
+}

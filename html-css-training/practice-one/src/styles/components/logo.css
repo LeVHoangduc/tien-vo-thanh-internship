@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  #LOGO CSS
+\*------------------------------------*/
+.header-logo {
+  cursor: pointer;
+  height: 64px;
+}
+
+.header-logo-img {
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+.footer-logo {
+  height: 46px;
+}
