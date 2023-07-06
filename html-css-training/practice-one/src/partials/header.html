@@ -7,14 +7,38 @@
   </a>
   <nav class="header-nav">
     <ul class="header-nav-list">
-      <include src="partials/components/nav-item.html" locals='{
-        "link": "javascript:void(0)",
-        "nav_link_1": "features",
-        "nav_link_2": "pricing",
-        "nav_link_3": "services",
-        "nav_link_4": "partners"
-      }'>
-      </include>
+      <li class="header-nav-item">
+        <include src="partials/components/item-link.html" locals='{
+          "className": "header-nav-link",
+          "link": "javascript:void(0)",
+          "text": "features"
+        }'>
+        </include>
+      </li>
+      <li class="header-nav-item">
+        <include src="partials/components/item-link.html" locals='{
+          "className": "header-nav-link",
+          "link": "javascript:void(0)",
+          "text": "pricing"
+        }'>
+        </include>
+      </li>
+      <li class="header-nav-item">
+        <include src="partials/components/item-link.html" locals='{
+          "className": "header-nav-link",
+          "link": "javascript:void(0)",
+          "text": "services"
+        }'>
+        </include>
+      </li>
+      <li class="header-nav-item">
+        <include src="partials/components/item-link.html" locals='{
+          "className": "header-nav-link",
+          "link": "javascript:void(0)",
+          "text": "partners"
+        }'>
+        </include>
+      </li>
       <li class="header-nav-item">
         <a class="header-nav-auth" href="javascript:void(0)">sign up free</a>
       </li>
