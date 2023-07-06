@@ -1,3 +1,6 @@
+/*------------------------------------*\
+  #NAV-ITEM CSS
+\*------------------------------------*/
 .header-nav-item {
   padding: 38px 0 44px 0;
 }
@@ -10,7 +13,7 @@
   font-size: var(--fs-small);
   text-transform: uppercase;
   position: relative;
-  min-width: 110px;
+  width: 110px;
   display: block;
   text-align: center;
 }

@@ -1,9 +1,14 @@
+/*------------------------------------*\
+  #CAMPAIGNS-CARD CSS
+\*------------------------------------*/
 .campaigns-card {
+  width: 320px;
+  height: max-content;
   background-color: var(--primary-bg-color) ;
 }
 
 .campaigns-card-img-wrapper {
-  width: 320px;
+  width: 100%;
   height: 260px;
 }
 
