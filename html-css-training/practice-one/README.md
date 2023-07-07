@@ -44,6 +44,15 @@ Introduce dashboard app landing page
 
 ### Prerequisites: Nodejs, pnpm
 ### Guide:
+`Clone website`
+- Copy the repository's URL.
+- Open a terminal or command line.
+- Navigate to the directory where you want to store the cloned website.
+- Use the git clone command followed by the repository URL.
+  - Ex: `git clone https://github.com/username/repository.git`
+- Wait for the cloning process to complete.
+
+`Run website`
 - cd html-css-training/practice-one 
 - install package: pnpm install
 - run app: pnpm run dev
