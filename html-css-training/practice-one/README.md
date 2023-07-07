@@ -44,7 +44,7 @@ Introduce dashboard app landing page
 
 ### Prerequisites: Nodejs, pnpm
 ### Guide:
-- cd vô html-css-training/practice-one 
+- cd html-css-training/practice-one 
 - install package: pnpm install
 - run app: pnpm run dev
 - run component page: pnpm run components
