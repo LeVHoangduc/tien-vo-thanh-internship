@@ -44,10 +44,11 @@ Introduce dashboard app landing page
 
 ### Prerequisites: Nodejs, pnpm
 ### Guide:
-- cd vô folder project
+- cd vô html-css-training/practice-one 
 - install package: pnpm install
 - run app: pnpm run dev
 - run component page: pnpm run components
+- Click http://localhost:1234 open the website
 
 ## Folder structure ##
 practice-one
