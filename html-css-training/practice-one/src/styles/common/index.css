@@ -1,16 +1,19 @@
 /*------------------------------------*\
   #COMMON CSS
 \*------------------------------------*/
-.container {
-  max-width: 1088px;
-  margin: 0 auto;
-  position: relative;
-}
-
 body {
   font-family: var(--primary-font-family);
   font-weight: var(--fw-medium);
   font-size: var(--fs-medium);
+  width:1520px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
+  position: relative;
 }
 
 h1,h2,h3 {
@@ -38,7 +41,6 @@ h1,h2,h3 {
 .btn:hover {
   background-color: var(--secondary-bg-color);
   color: var(--white-text-color);
-  border: 1px solid var(--secondary-color);
 }
 
 .btn-submit {
@@ -55,7 +57,7 @@ h1,h2,h3 {
 }
 
 .main-content {
-  background-image: url(../../assets/images/backgound.png);
+  background-image: url(../../assets/images/background.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin: auto;
