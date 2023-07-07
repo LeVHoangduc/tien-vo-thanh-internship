@@ -10,10 +10,6 @@
   transition: all 0.3s ease;
 }
 
-.contact-member-item:hover {
-  transform: scale(1.04);
-}
-
 .contact-member-content {
   padding: 25px;
 }
