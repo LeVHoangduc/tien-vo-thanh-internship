@@ -2,14 +2,14 @@
   #LOGO CSS
 \*------------------------------------*/
 .header-logo {
-  cursor: pointer;
+  width: 270px;
   height: 64px;
 }
 
 .header-logo-img {
-    height: auto;
-    width: auto;
-    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .footer-logo {
