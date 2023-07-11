@@ -4,7 +4,7 @@
 body {
   font-family: var(--primary-font-family);
   font-weight: var(--fw-medium);
-  font-size: var(--fs-x-medium);
+  font-size: var(--fs-medium);
   width:1520px;
   margin: 0 auto;
   overflow-x: hidden;
@@ -13,19 +13,24 @@ body {
 .container {
   max-width: 1088px;
   margin: 0 auto;
+  position: relative;
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
   font-family: var(--secondary-font-family);
   font-weight: var(--fw-black);
 }
 
 .btn {
-  font-size: var(--fs-medium);
+  font-size: var(--fs-btn);
   font-weight: var(--fw-black);
-  min-width: var(--btn-medium-w);
-  height: var(--btn-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 65px;
   text-transform: uppercase;
+  line-height: 25px;
   cursor: pointer;
   background-color: var(--primary-bg-color);
   border: none;
@@ -40,19 +45,19 @@ h1, h2, h3 {
 
 .btn-submit {
   border: none;
-  min-width: var(--btn-large-w);
+  width: 221px;
   background-color: var(--secondary-bg-color);
   color: var( --white-text-color);
 }
 
-.btn-submit:hover {
+.btn-submit:hover{
   background-color: transparent;
   color: var(--secondary-text-color);
   border: 1px solid var(--primary-color);
 }
 
 .main-content {
-  background-image: url('../../assets/images/background.png');
+  background-image: url(../../assets/images/background.png);
   background-size: contain;
   background-repeat: no-repeat;
   margin: auto;
