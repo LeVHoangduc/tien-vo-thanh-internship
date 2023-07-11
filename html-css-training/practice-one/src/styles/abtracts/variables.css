@@ -17,8 +17,8 @@
   --fs-normal : 15px;
   --fs-x-small: 16px;
   --fs-small: 17px;
-  --fs-medium: 19px;
-  --fs-btn: 21px;
+  --fs-x-medium: 19px;
+  --fs-medium: 21px;
   --fs-large: 34px;
   --fs-x-large: 44px;
   --fs-xx-large: 59px;
@@ -28,6 +28,11 @@
   --fw-bold: 700;
   --fw-extra-bold: 800;
   --fw-black: 900;
+
+  --btn-medium-w: 200px;
+  --btn-large-w: 221px;
+  --btn-h: 65px;
+
   /* end sizing */
 
   /* font */
