@@ -22,9 +22,9 @@
 }
 
 .hero-title {
-    color: #000;
-    font-size: var(--fs-xx-large);
-    line-height: 71px;
+  color: var(--primary-text-color);
+  font-size: var(--fs-xx-large);
+  line-height: 71px;
 }
 
 .hero-text {

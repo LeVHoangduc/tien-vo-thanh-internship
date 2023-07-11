@@ -23,7 +23,7 @@
 
 .contact-member-desc {
   color: var(--white-text-color);
-  font-size: var(--fs-medium);
+  font-size: var(--fs-x-medium);
   font-weight: var(--fw-bold);
   line-height: 22px;
 }

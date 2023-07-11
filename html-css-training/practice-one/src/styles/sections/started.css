@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.started-tile {
+.started-title {
   color: var(--white-text-color);
   text-align: center;
   font-size: var(--fs-huge);

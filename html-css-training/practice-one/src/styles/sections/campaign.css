@@ -31,7 +31,7 @@
 
 .campaign-card-text-proven {
   color: var(--primary-text-color);
-  font-size: var(--fs-medium);
+  font-size: var(--fs-x-medium);
   font-weight: var(--fw-medium);
   line-height: 26px;
   padding-right: 44px;
