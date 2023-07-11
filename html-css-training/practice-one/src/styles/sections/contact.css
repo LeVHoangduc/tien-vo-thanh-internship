@@ -86,7 +86,7 @@
 .form-message {
   margin-left: 25px;
   color: var(--primary-color);
-  font-size: var(--fs-btn);
+  font-size: var(--fs-medium);
   font-weight: var(--fw-medium);
   line-height: 25px;
   letter-spacing: 1px;
