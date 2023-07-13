@@ -1,21 +1,19 @@
-# HTML-CSS-PRACTICE_ONE 
+# HTML-CSS-PRACTICE_TWO 
 Introduce dashboard app landing page
 
 ## Target: 
-- Understand HTML/CSS properties and use them correctly
-- Slice from Sketch to HTML/CSS
-- Understand the concepts of Flex
 
+- Apply knowledge to responsive practice one design
+- Used media queries for popular screen size
 
 ## Design on figma: 
 [Figma](https://www.figma.com/file/6QbJ3zCbwFEIqDrHuYegS1/NinjaMail-(Community)-Thao's-practice?node-id=1%3A30&mode=dev)
 
 
 ## Information: 
-- Time line: 21/06/2023 -> 07/05/2023
+- Time line: 13/07/2023 -> 18/07/2023
 - Editor: Visual Studio Code
-- Supported browser: Chrome lasted
-
+- Support cross browser: Chrome, Edge,  Firefox
 
 ## Project convention: 
 ### Branch name format
@@ -60,7 +58,7 @@ Introduce dashboard app landing page
 
 `Run app`
 - git clone https://github.com/thanhnguyen-agilityio/tien-vo-thanh-internship.git
-- cd html-css-training/practice-one 
+- cd html-css-training/practice-two 
 - pnpm install
 - pnpm run dev
 - For components page, please run pnpm run components
