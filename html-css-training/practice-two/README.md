@@ -12,7 +12,17 @@
 ## Information: 
 - Time line: 13/07/2023 -> 18/07/2023
 - Editor: Visual Studio Code
-- Support cross browser: Chrome, Edge,  Firefox
+
+- Support cross browser: 
+  - Chrome (114.0.5735.199)
+  - Edge (114.0.1823.79)
+  - Firefox (114.0.2)
+
+- Screens ([refer here](https://getbootstrap.com/docs/5.0/layout/breakpoints/))
+  - Portrait tablets and large phones (Small devices, 320px and up) 
+  - Medium devices (tablets, 768px and up)
+  - Large devices (desktops, 992px and up)
+  - XX-Large devices (larger desktops, 1400px and up)
 
 ## Project convention: 
 ### Branch name format
