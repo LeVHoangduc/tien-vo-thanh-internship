@@ -1,9 +1,0 @@
-node_modules
-
-.cache
-
-.parcel-cache
-
-dist
-
-.vercel/project.json
