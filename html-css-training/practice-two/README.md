@@ -1,5 +1,4 @@
 # HTML-CSS-PRACTICE_TWO 
-Introduce dashboard app landing page
 
 ## Target: 
 
@@ -65,7 +64,7 @@ Introduce dashboard app landing page
 - Open http://localhost:1234 to see the local website.
 
 ## Folder structure 
-practice-one
+practice-two
 ~~~
 |-- src
     |-- assets
@@ -81,7 +80,7 @@ practice-one
         |-- abtracts
             |-- index.css
             |-- variables.css
-        |-- base
+        |-- bases
             |-- index.css
             |-- reset.css
             |-- typography.css
