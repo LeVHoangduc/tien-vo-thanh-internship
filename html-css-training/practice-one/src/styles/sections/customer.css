@@ -1,0 +1,35 @@
+/*------------------------------------*\
+  #CUSTOMERS CSS
+\*------------------------------------*/
+.customers {
+  margin-top: 270px;
+  display: flex;
+  justify-content: center;
+}
+
+.customers-container {
+  background-image: url('../../assets/images/video.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 944px;
+  height: 531px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.customers-content {
+  display: flex;
+  flex-direction: column;
+  gap: 51px 0;
+  align-items: center;
+}
+
+.customer-heading {
+  color: var(--white-text-color);
+  font-size: var(--fs-huge);
+  font-weight: var(--fw-black);
+  line-height: 80px;
+}

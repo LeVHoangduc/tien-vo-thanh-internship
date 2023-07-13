@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #CAMPAIGNS CSS
+\*------------------------------------*/
+.campaign {
+  margin-top: 100px;
+  display: flex;
+  gap: 0 47px;
+}
+
+.campaign-card:nth-child(2) {
+  margin-top: 88px;
+}
+
+.campaign-card:nth-child(3) {
+  max-width: 365px;
+  margin-top: 138px;
+  background-color: transparent;
+}
+
+.campaign-card-title {
+  color: var(--primary-text-color);
+  font-size: var(--fs-x-large);
+  line-height: 48px;
+  margin-bottom: 22px;
+}
+
+.campaign-card-body-proven {
+  min-width: 365px;
+  padding: 0;
+}
+
+.campaign-card-text-proven {
+  color: var(--primary-text-color);
+  font-size: var(--fs-x-medium);
+  font-weight: var(--fw-medium);
+  line-height: 26px;
+  padding-right: 44px;
+}
