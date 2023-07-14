@@ -5,9 +5,8 @@ body {
   font-family: var(--primary-font-family);
   font-weight: var(--fw-medium);
   font-size: var(--fs-x-medium);
-  width:1520px;
+  width:100%;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 
 .container {
