@@ -24,6 +24,16 @@
   --fs-xx-large: 59px;
   --fs-huge: 60px;
 
+  /* responsive */
+  --fs-responsive-normal: 9px;
+  --fs-responsive-x-small: 11px;
+  --fs-responsive-small: 12px;
+  --fs-responsive-x-medium: 13px;
+  --fs-responsive-medium: 28px;
+  --fs-responsive-large: 38px;
+
+  /* end responsive */
+
   --fw-medium: 500;
   --fw-bold: 700;
   --fw-extra-bold: 800;
