@@ -17,14 +17,14 @@
   height: 46px;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .header-logo {
     width: 173px;
     height: 53px;
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .header-logo {
     width: 155px;
     height: 45px;
