@@ -23,17 +23,7 @@
   border-bottom: 5px solid var(--secondary-bg-color);
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-  .header-nav-item:not(:last-child) {
-    display: none;
-  }
-
-  .header-nav-item {
-    padding: 15px 0 22px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
+@media (max-width: 992px) {
   .header-nav-link {
     font-size: var(--fs-respon-x-small);
     min-width: 71px;
@@ -44,10 +34,15 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (max-width: 767px) {
+  .header-nav-item:not(:last-child) {
+    display: none;
+  }
+
   .header-nav-item {
-    padding: 13px 0 25px;
+    padding: 15px 0 22px;
   }
 }
+
 
 
