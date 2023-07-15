@@ -62,6 +62,7 @@
     height: 62px;
     padding: 0 13px;
   }
+  
   .header-nav-auth {
     font-size: var(--fs-respon-x-small);
     min-width: 110px;
