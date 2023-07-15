@@ -4,14 +4,30 @@
 .header-logo {
   width: 270px;
   height: 64px;
+  display: inline-block;
 }
 
 .header-logo-img {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .footer-logo {
   height: 46px;
 }
+
+@media screen and (max-width: 992px) {
+  .header-logo {
+    width: 173px;
+    height: 53px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-logo {
+    width: 155px;
+    height: 45px;
+  }
+}
+
