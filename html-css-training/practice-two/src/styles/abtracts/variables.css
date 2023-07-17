@@ -45,6 +45,11 @@
   --btn-large-w: 221px;
   --btn-h: 65px;
 
+  --btn-respon-media-w: 131px;
+  --btn-respon-large-w: 143px;
+  --btn-respon-media-h: 40px;
+  --btn-respon-large-h: 42px;
+
   /* end sizing */
 
   /* font */
