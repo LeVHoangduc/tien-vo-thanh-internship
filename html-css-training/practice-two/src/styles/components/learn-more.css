@@ -14,3 +14,9 @@
 .btn-learn-more:hover{
   opacity: 0.8;
 }
+
+@media screen and (max-width: 992px) {
+  .btn-learn-more {
+    font-size: var(--fs-respon-small);
+  }
+}
