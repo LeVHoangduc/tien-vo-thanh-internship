@@ -16,7 +16,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: lightgray 0px 0px;
 }
 
 .campaign-card-body {
