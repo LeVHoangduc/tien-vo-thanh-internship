@@ -11,6 +11,12 @@
   transition: all 0.3s ease;
 }
 
-.btn-learn-more:hover{
+.btn-learn-more:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 992px) {
+  .btn-learn-more {
+    font-size: var(--fs-respon-small);
+  }
 }
