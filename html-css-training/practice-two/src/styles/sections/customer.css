@@ -33,3 +33,43 @@
   font-weight: var(--fw-black);
   line-height: 80px;
 }
+
+@media screen and (max-width: 992px) {
+  .customers {
+    margin-top: 105px;
+  }
+
+  .customers-container {
+    width: 616px;
+    height: 347px;
+  }
+
+  .customer-heading {
+    font-size: var(--fs-respon-x-huge);
+    line-height: 51px;
+  }
+
+  .customers-content {
+    gap: 41px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .customers {
+    margin-top: 42px;
+  }
+
+  .customers-container {
+    width: 304px;
+    height: 171px;
+  }
+
+  .customer-heading {
+    font-size: var(--fs-respon-large);
+    line-height: 29px;
+  }
+
+  .customers-content {
+    gap: 20px 0;
+  }
+}
