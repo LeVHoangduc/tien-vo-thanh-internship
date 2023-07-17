@@ -98,6 +98,7 @@
 @media screen and (max-width: 767px) {
   .hero {
     margin-top: 8px;
+    padding-bottom: 0;
   }
 
   .btn-hero-wrapper {
