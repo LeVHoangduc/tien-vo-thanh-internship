@@ -8,6 +8,7 @@
   background-position: center;
   cursor: pointer;
   transition: all 0.3s ease;
+  background-size: cover;
 }
 
 .contact-member-content {
@@ -26,4 +27,21 @@
   font-size: var(--fs-x-medium);
   font-weight: var(--fw-bold);
   line-height: 22px;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-member-item {
+    width: 223px;
+    height: 157px;
+  }
+
+  .contact-member-name {
+    font-size: var(--fs-respon-x-large);
+    line-height: 26px;
+  }
+
+  .contact-member-desc {
+    font-size: var(--fs-respon-medium);
+    line-height: 14px;
+  }
 }
