@@ -6,42 +6,49 @@
     }'>
   </a>
   <nav class="header-nav">
-    <ul class="header-nav-list">
-      <li class="header-nav-item">
-        <include src="partials/components/item-link.html" locals='{
+    <div class="menu">
+      <div class="menu-toggle">
+        <span class="line-item"></span>
+        <span class="line-item"></span>
+        <span class="line-item"></span>
+      </div>
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <include src="partials/components/item-link.html" locals='{
           "class_name": "header-nav-link",
           "link": "javascript:void(0)",
           "text": "features"
         }'>
-        </include>
-      </li>
-      <li class="header-nav-item">
-        <include src="partials/components/item-link.html" locals='{
+          </include>
+        </li>
+        <li class="header-nav-item">
+          <include src="partials/components/item-link.html" locals='{
           "class_name": "header-nav-link",
           "link": "javascript:void(0)",
           "text": "pricing"
         }'>
-        </include>
-      </li>
-      <li class="header-nav-item">
-        <include src="partials/components/item-link.html" locals='{
+          </include>
+        </li>
+        <li class="header-nav-item">
+          <include src="partials/components/item-link.html" locals='{
           "class_name": "header-nav-link",
           "link": "javascript:void(0)",
           "text": "services"
         }'>
-        </include>
-      </li>
-      <li class="header-nav-item">
-        <include src="partials/components/item-link.html" locals='{
+          </include>
+        </li>
+        <li class="header-nav-item">
+          <include src="partials/components/item-link.html" locals='{
           "class_name": "header-nav-link",
           "link": "javascript:void(0)",
           "text": "partners"
         }'>
-        </include>
-      </li>
-      <li class="header-nav-item">
-        <a class="header-nav-auth" href="javascript:void(0)">sign up free</a>
-      </li>
-    </ul>
+          </include>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-auth" href="javascript:void(0)">sign up free</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </header>
