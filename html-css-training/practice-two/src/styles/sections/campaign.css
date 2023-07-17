@@ -9,13 +9,12 @@
 
 .campaign-card:nth-child(2) {
   margin-top: 88px;
-  align-self: flex-end;
 }
 
 .campaign-card:nth-child(3) {
   max-width: 365px;
+  margin-top: 138px;
   background-color: transparent;
-  align-self: center;
 }
 
 .campaign-card-title {
@@ -36,63 +35,4 @@
   font-weight: var(--fw-medium);
   line-height: 26px;
   padding-right: 44px;
-}
-
-@media screen and (max-width: 992px) {
-  .campaign {
-    gap: 0 31px;
-  }
-
-  .campaign-card-img-wrapper {
-    width: 209px;
-    height: 160px;
-  }
-
-  .campaign-card-body {
-    padding: 17px 25px 13px 20px;
-  }
-
-  .campaign-card-text, .campaign-card-text-proven {
-    font-size: var(--fs-respon-small);
-    line-height: 16px;
-  }
-
-  .campaign-card-body-proven {
-    min-width: 232px;
-    padding: 0;
-  } 
-
-  .campaign-card-title {
-    font-size: var(--fs-respon-xx-large);
-    line-height: 31px;
-    margin-bottom: 17px;
-  }
-
-  .btn-learn-more {
-    font-size: var(--fs-respon-small);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .campaign {
-    margin-top: 33px;
-    flex-direction: column;
-  }
-
-  .campaign-card {
-    max-width: 209px;
-  }
-
-  .campaign-card:nth-child(2) {
-    margin-top: 10px;
-  }
-  
-  .campaign-card:nth-child(3) {
-    margin-top: 18px;
-    max-width: 232px;
-  }
-
-  .campaign-card-text-proven {
-    padding-right: 29px;
-  }
 }
