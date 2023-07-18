@@ -8,3 +8,10 @@
   line-height: 22px;
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 992px) {
+  .footer-link {
+    font-size: var(--fs-respon-small);
+    line-height: 14px;
+  }
+}
