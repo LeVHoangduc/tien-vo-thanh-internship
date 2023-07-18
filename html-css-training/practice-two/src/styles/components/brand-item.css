@@ -2,20 +2,55 @@
   #BRAND-ITEM CSS
 \*------------------------------------*/
 .brand-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
   margin-top: 45px;
   padding: 0 94px;
 }
 
-.brand-img {
-  width: auto;
-  height: auto;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.brand-item {
+  width: 134px;
+  height: 48px;
 }
 
-.brand-img:hover {
-  transform: scale(1.05);
+.brand-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 992px) {
+  .brand-item {
+    width: 81px;
+    height: 31px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .brand-container {
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .brand-item:nth-child(1) {
+    grid-area: 1 / 2;
+  }
+
+  .brand-item:nth-child(2) {
+    grid-area: 1 / 1;
+  }
+
+  .brand-item:nth-child(3) {
+    grid-area: 3 / 1 / 3 / span 2;
+  }
+
+  .brand-item:nth-child(4) {
+    grid-area: 2 / 2;
+  }
+
+  .brand-item:nth-child(5) {
+    grid-area: 2 / 1;
+  }
 }
