@@ -53,7 +53,7 @@ h1, h2, h3 {
 
 .main-content {
   background-image: url('../../assets/images/background.png');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
 }
