@@ -2,8 +2,14 @@
   #STARTED CSS
 \*------------------------------------*/
 .started {
-  height: 336px;
   background-color: var(--primary-color);
+  height: 366px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.started-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,4 +22,25 @@
   font-size: var(--fs-huge);
   line-height: 80px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .started {
+    height: 240px;
+  }
+
+  .started-title {
+    font-size: var(--fs-respon-xx-huge);
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .started {
+    height: 290px;
+  }
+
+  .started-title {
+    line-height: 48px;
+  }
 }
