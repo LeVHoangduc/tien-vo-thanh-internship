@@ -4,7 +4,8 @@
 .campaign {
   margin-top: 100px;
   display: flex;
-  gap: 0 47px;
+  width: 100%;
+  gap: 0 40px;
 }
 
 .campaign-card:nth-child(2) {
@@ -13,7 +14,6 @@
 }
 
 .campaign-card:nth-child(3) {
-  max-width: 365px;
   background-color: transparent;
   align-self: center;
 }
@@ -26,8 +26,8 @@
 }
 
 .campaign-card-body-proven {
-  min-width: 365px;
   padding: 0;
+  width: 115%;
 }
 
 .campaign-card-text-proven {
@@ -38,44 +38,45 @@
   padding-right: 44px;
 }
 
-@media screen and (max-width: 992px) {
-  .campaign {
-    gap: 0 31px;
+@media screen and (max-width: 1200px) {
+  .campaign-card-title {
+    color: var(--primary-text-color);
+    font-size: var(--fs-x-large);
+    margin-bottom: 22px;
+    line-height: 48px;
+  }
+
+  .campaign-card-body-proven {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .campaign-card-title {
+    font-size: var(--fs-respon-xx-large);
+    line-height: 31px;
   }
 
   .campaign-card-text-proven {
     font-size: var(--fs-respon-small);
     line-height: 16px;
   }
-
-  .campaign-card-title {
-    font-size: var(--fs-respon-xx-large);
-    line-height: 31px;
-    margin-bottom: 17px;
-  }
-
-  .campaign-card-body-proven {
-    min-width: 232px;
-    padding: 0;
-  } 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .campaign {
-    margin-top: 33px;
     flex-direction: column;
   }
 
-  .campaign-card:nth-child(2) {
-    margin-top: 10px;
-  }
-  
-  .campaign-card:nth-child(3) {
-    margin-top: 18px;
-    max-width: 232px;
+  .campaign-card {
+    width: 80%;
   }
 
-  .campaign-card-text-proven {
-    padding-right: 29px;
+  .campaign-card:nth-child(2) {
+    margin-top: 11px;
+  }
+
+  .campaign-card:nth-child(3) {
+    margin-top: 18px;
   }
 }

@@ -2,14 +2,14 @@
   #CAMPAIGN-CARD CSS
 \*------------------------------------*/
 .campaign-card {
-  width: 320px;
-  height: max-content;
+  align-self: flex-start;
   background-color: var(--primary-bg-color) ;
+  max-width: 320px;
+  width: 100%;
 }
 
 .campaign-card-img-wrapper {
   width: 100%;
-  height: 260px;
 }
 
 .campaign-card-img {
@@ -29,24 +29,21 @@
   line-height: 26px;
 }
 
+@media screen and (max-width: 1200px) {
+
+}
+
 @media screen and (max-width: 992px) {
-  .campaign-card-img-wrapper {
-    width: 209px;
-    height: 160px;
+  .campaign-card-text {
+    font-size: var(--fs-respon-small);
+    line-height: 16px;
   }
 
   .campaign-card-body {
     padding: 17px 25px 13px 20px;
   }
-
-  .campaign-card-text {
-    font-size: var(--fs-respon-small);
-    line-height: 16px;
-  }
 }
 
 @media screen and (max-width: 767px) {
-  .campaign-card {
-    max-width: 209px;
-  }
+
 }
