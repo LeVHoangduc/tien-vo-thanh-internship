@@ -2,22 +2,21 @@
   #CUSTOMERS CSS
 \*------------------------------------*/
 .customers {
-  margin-top: 270px;
+  margin-top: 130px;
   display: flex;
   justify-content: center;
 }
 
 .customers-container {
   background-image: url('../../assets/images/video.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
   width: 944px;
   height: 531px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .customers-content {
@@ -40,7 +39,6 @@
   }
 
   .customers-container {
-    width: 616px;
     height: 347px;
   }
 
@@ -56,12 +54,7 @@
 
 @media screen and (max-width: 767px) {
   .customers {
-    margin-top: 42px;
-  }
-
-  .customers-container {
-    width: 304px;
-    height: 171px;
+    margin-top: 0;
   }
 
   .customer-heading {

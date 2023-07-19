@@ -2,13 +2,14 @@
   #CONTACT-CARD CSS
 \*------------------------------------*/
 .contact-member-item {
-  width: 342px;
+  min-width: 342px;
   height: 239px;
   justify-content: flex-end;
   background-position: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .contact-member-content {
@@ -29,11 +30,17 @@
   line-height: 22px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .contact-member-item {
-    width: 223px;
+    min-width: 270px;
     height: 157px;
-  }
+  } 
+}
+
+@media screen and (max-width: 922px) {
+  .contact-member-item {
+    min-width: 223px;
+  } 
 
   .contact-member-name {
     font-size: var(--fs-respon-x-large);
