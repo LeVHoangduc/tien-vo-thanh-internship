@@ -2,9 +2,9 @@
   #LOGO CSS
 \*------------------------------------*/
 .header-logo {
-  width: 270px;
-  height: 64px;
   display: inline-block;
+  width: 242px;
+  height: 34px;
 }
 
 .header-logo-img {
@@ -14,20 +14,23 @@
 }
 
 .footer-logo {
-  height: 46px;
+  height: 28px;
 }
 
-@media screen and (max-width: 1400px) {
-  .header-logo {
-    width: 173px;
-    height: 53px;
+@media screen and (max-width: 992px) {
+  .header-logo-img {
+    max-inline-size: 70%;
+    block-size: auto;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header-logo {
-    width: 155px;
-    height: 45px;
+    width: 216px;
+    height: 31px;
+  }
+
+  .footer-logo {
+    height: 17px;
   }
 }
-

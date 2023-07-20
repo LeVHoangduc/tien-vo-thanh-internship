@@ -6,15 +6,15 @@
 }
 
 .header-nav-link {
-  color: var(--primary-text-color);
-  font-weight: var(--fw-extra-bold);
-  letter-spacing: 1px;
-  font-size: var(--fs-small);
-  text-transform: uppercase;
+  display: inline-block;
   min-width: 110px;
   height: 41px;
+  color: var(--primary-text-color);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-extra-bold);
   line-height: 41px;
-  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   text-align: center;
   transition: all 0.1s ease-in;
 }
@@ -34,13 +34,13 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header-nav-item {
     padding: 10px 0 22px;
   }
 
   .header-nav-link {
-    min-width: 100px;
+    min-width: 71px;
   }
 }
 

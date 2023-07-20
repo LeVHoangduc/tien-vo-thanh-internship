@@ -2,11 +2,11 @@
   #STARTED CSS
 \*------------------------------------*/
 .started {
-  background-color: var(--primary-color);
-  height: 366px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 366px;
+  background-color: var(--primary-color);
 }
 
 .started-container {
@@ -21,7 +21,11 @@
   text-align: center;
   font-size: var(--fs-huge);
   line-height: 80px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+.btn-started {
+  transform: translateY(-15px);
 }
 
 @media screen and (max-width: 992px) {
@@ -33,9 +37,13 @@
     font-size: var(--fs-respon-xx-huge);
     line-height: 56px;
   }
+
+  .btn-started {
+    transform: translateY(-22px);
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .started {
     height: 290px;
   }

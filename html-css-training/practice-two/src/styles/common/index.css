@@ -31,6 +31,8 @@ h1, h2, h3 {
   border: none;
   color: var(--secondary-text-color);
   transition: all 0.3s ease;
+  font-family: var(--primary-font-family);
+  letter-spacing: 1px;
 }
 
 .btn:hover {
@@ -58,27 +60,46 @@ h1, h2, h3 {
   margin: auto;
 }
 
-@media screen and (max-width: 1200px) {
-  .container {
+@media screen and (max-width: 1440px) {
+  .main-content {
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 1200px) { 
+  .container { 
     padding: 0 20px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .btn {
-    min-width: var(--btn-respon-large-w);
+    min-width: var(--btn-respon-media-w);
     height: var(--btn-respon-large-h);
     font-size: var(--fs-respon-x-medium);
   }
+
+  .btn-submit {
+    min-width: var(--btn-respon-large-w);
+  }
+
+  .main-content {
+    background-image: url('../../assets/images/background-table.png');
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .btn {
-    min-width: var(--btn-respon-media-w);
+    min-width: var(--btn-respon-large-w);
     height: var(--btn-respon-media-h);
   }
-  
-  .container {
-    padding: 0 20px;
+
+  .main-content {
+    background-image: url('../../assets/images/background-mobile.png');
+    background-size: contain;
+  }
+
+  .container { 
+    padding: 0 10px;
   }
 }

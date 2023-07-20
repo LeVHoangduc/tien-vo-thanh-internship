@@ -2,18 +2,23 @@
   #CONTACT-CARD CSS
 \*------------------------------------*/
 .contact-member-item {
-  min-width: 342px;
-  height: 239px;
-  justify-content: flex-end;
-  background-position: center;
-  cursor: pointer;
+  max-width: 340px;
+  cursor: pointer;  
   transition: all 0.3s ease;
-  background-size: contain;
-  background-repeat: no-repeat;
+  position: relative;
+}
+
+.contact-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contact-member-content {
-  padding: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 0 20px 25px
 }
 
 .contact-member-name {
@@ -31,24 +36,24 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .contact-member-item {
-    min-width: 270px;
-    height: 157px;
+  .contact-avatar {
+    max-inline-size: 100%;
+    block-size: auto;
   } 
 }
 
-@media screen and (max-width: 922px) {
-  .contact-member-item {
-    min-width: 223px;
-  } 
-
+@media screen and (max-width: 768px) {
   .contact-member-name {
-    font-size: var(--fs-respon-x-large);
-    line-height: 26px;
+    margin-bottom: 5px;
+    font-size: var(--fs-respon-large);
+    line-height: 16px;
   }
 
   .contact-member-desc {
-    font-size: var(--fs-respon-medium);
-    line-height: 14px;
+    font-size: var(--fs-respon-small);
   }
-}
+
+  .contact-member-content {
+    padding: 0 0 9px 20px;
+  }
+} 
