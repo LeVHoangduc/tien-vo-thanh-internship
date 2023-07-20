@@ -7,26 +7,26 @@
 }
 
 .brand-title {
+  padding: 0 300px;
   text-align: center;
   font-size: var(--fs-x-large);
   line-height: 48px;
-  padding: 0 300px;
 }
 
 @media screen and (max-width: 992px) {
   .brand {
     margin-top: 50px;
-    padding-bottom: 95px;
+    padding-bottom: 100px;
   }
 
   .brand-title {
+    padding: 0 200px;
     font-size: var(--fs-respon-xx-large);
     line-height: 36px;  
-    padding: 0 200px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   .brand {
     margin-top: 59px;
     padding-bottom: 58px;
@@ -34,6 +34,6 @@
 
   .brand-title {
     font-size: var(--fs-respon-x-large);
-    padding: 0 30px;
+    padding: 0;
   }
 }
