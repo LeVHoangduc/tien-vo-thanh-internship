@@ -1,29 +1,32 @@
 /*------------------------------------*\
-  #CUSTOMERS CSS
+  #CUSTOMER CSS
 \*------------------------------------*/
-.customers {
-  margin-top: 130px;
+.customer {
   display: flex;
   justify-content: center;
+  margin-top: 255px;
 }
 
-.customers-container {
-  background-image: url('../../assets/images/video.jpg');
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
-  width: 944px;
-  height: 531px;
+.customer-container {
   display: flex;
+  max-width: 944px;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.customers-content {
+.customer-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.customer-content {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 51px 0;
   align-items: center;
+  gap: 60px 0;
 }
 
 .customer-heading {
@@ -33,36 +36,43 @@
   line-height: 80px;
 }
 
-@media screen and (max-width: 992px) {
-  .customers {
-    margin-top: 105px;
+@media screen and (max-width: 1200px) {
+  .customer-image {
+    max-inline-size: 100%;
+    block-size: auto;
   }
 
-  .customers-container {
-    height: 347px;
+  .customer {
+    margin-top: 130px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .customer-content {
+    gap: 40px 0;
   }
 
   .customer-heading {
     font-size: var(--fs-respon-x-huge);
     line-height: 51px;
   }
-
-  .customers-content {
-    gap: 41px 0;
-  }
 }
 
-@media screen and (max-width: 767px) {
-  .customers {
-    margin-top: 0;
-  }
-
+@media screen and (max-width: 576px) {
   .customer-heading {
     font-size: var(--fs-respon-large);
     line-height: 29px;
   }
+}
 
-  .customers-content {
+@media screen and (max-width: 320px) {
+  .btn-customer {
+    min-width: 65px;
+    height: 21px;
+    font-size: 6px;
+  }
+
+  .customer-content {
     gap: 20px 0;
   }
 }
