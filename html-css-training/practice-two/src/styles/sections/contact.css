@@ -10,8 +10,8 @@
 .contact {
   justify-content: center;
   align-items: center;
-  gap: 37px 0;
   margin-top: 133px;
+  gap: 37px 0;
 }
 
 .contact-container {
@@ -20,18 +20,6 @@
   column-gap: 32px;
 }   
 
-.contact-member-item:nth-child(1) {
-  background-image: url('../../assets/images/frankie.jpg');
-}
-
-.contact-member-item:nth-child(2) {
-  background-image: url('../../assets/images/camile.jpg');
-}
-
-.contact-member-item:nth-child(3) {
-  background-image: url('../../assets/images/elayne.jpg');
-}
-
 .contact-content {
   justify-content: center;
   align-items: center;
@@ -39,10 +27,10 @@
 }
 
 .contact-title {
+  padding: 0 94px;
   text-align: center;
   font-size: var(--fs-x-large);
   line-height: 48px;
-  padding: 0 94px;
 }
 
 .form-controller {
@@ -57,20 +45,20 @@
 }
 
 .form-input {
-  width: 370px;
+  width: 420px;
   height: 65px;
+  padding: 0 25px;
   border-radius: 5px;
   border: 1px solid var(--border-color);
   background-color: var(--primary-bg-color);
   overflow: hidden;
-  padding: 0 25px;
 }
 
 .form-control {
-  border: none;
-  outline: none;
   width: 100%;
   height: 100%;
+  border: none;
+  outline: none;
   color: var(--primary-text-color);
   font-size: var(--fs-medium);
   font-weight: var(--fw-medium);
@@ -78,9 +66,11 @@
 
 .form-control::placeholder {
   color: var(--primary-text-color);
-  font-size: var(--fs-small);
+  font-size: var(--fs-medium);
   font-weight: var(--fw-medium);
   line-height: 25px;
+  letter-spacing: 1px;
+  font-family: var(--primary-font-family);
 }
 
 .form-message {
@@ -94,8 +84,8 @@
 
 @media screen and (max-width: 992px) {
   .contact {
-    margin-top: 87px;
     gap: 25px;
+    margin-top: 60px;
   }
 
   .contact-content {
@@ -123,33 +113,21 @@
   .form-controller {
     gap: 17px;
   }
+
+  .form-control::placeholder {
+    font-size: var(--fs-respon-x-medium);
+    line-height: 15px;
+  }
 }
 
-@media screen and (max-width: 767px) {
-  .contact {
-    gap: 60px;
-    width: 100%;
-  }
-
-  .contact-member-item {
-    min-width: 465px;
-    height: 320px;
-  }
-
+@media screen and (max-width: 768px) {
   .contact-container {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-  
-
-  .form-controller, .form-info {
-    flex-direction: column;
-    align-items: center;
+    column-gap: 20px;
   }
 
   .contact-title {
     font-size: var(--fs-respon-x-large);
-    padding: 0 38px;
+    padding: 0 90px;
   }
 
   .form-controller {
@@ -157,7 +135,7 @@
   }
 
   .form-message {
-    margin-left: 0;
+    margin-left: 15px;
   }
 
   .contact-content {
@@ -168,11 +146,47 @@
     gap: 6px;
     margin-bottom: 6px;
   }
+
+  .form-input {
+    padding: 0 12px;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  .contact {
+    margin-top: 47px;
+  }
+
+  .contact-title {
+    padding: 0 30px;
+    font-size: var(--fs-respon-x-large);
+  }
+
+  .form-controller, .form-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 21px;
+  }
+
+  .form-input {
+    width: 223px;
+  }
+} 
+
+@media screen and (max-width: 320px) {
   .contact-member-item {
-    min-width: 223px;
-    height: 157px;
+    align-items: center;
+  }
+
+  .contact-avatar {
+    max-inline-size: 82%;
+  }
+
+  .contact-member-content {
+    padding: 0 0 9px 46px;
   }
 }
