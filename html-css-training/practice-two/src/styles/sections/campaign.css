@@ -2,10 +2,10 @@
   #CAMPAIGNS CSS
 \*------------------------------------*/
 .campaign {
-  margin-top: 100px;
   display: flex;
   width: 100%;
-  gap: 0 40px;
+  margin-top: 100px;
+  gap: 0 47px;
 }
 
 .campaign-card:nth-child(2) {
@@ -14,62 +14,85 @@
 }
 
 .campaign-card:nth-child(3) {
-  background-color: transparent;
+  margin-top: 38px;
   align-self: center;
+  background-color: transparent;
 }
 
 .campaign-card-title {
+  margin-bottom: 22px;
   color: var(--primary-text-color);
   font-size: var(--fs-x-large);
   line-height: 48px;
-  margin-bottom: 22px;
 }
 
 .campaign-card-body-proven {
-  padding: 0;
   width: 115%;
+  padding: 0;
 }
 
 .campaign-card-text-proven {
+  padding-right: 44px;
   color: var(--primary-text-color);
   font-size: var(--fs-x-medium);
   font-weight: var(--fw-medium);
   line-height: 26px;
-  padding-right: 44px;
 }
 
 @media screen and (max-width: 1200px) {
   .campaign-card-title {
+    margin-bottom: 22px;
     color: var(--primary-text-color);
     font-size: var(--fs-x-large);
-    margin-bottom: 22px;
     line-height: 48px;
   }
 
+  .campaign {
+    gap: 0 31px;
+    margin-top: 70px;
+  }
+  
   .campaign-card-body-proven {
-    width: 100%;
+    width: 102%;
   }
 }
 
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 992px) {
+  .campaign-card-body {
+    padding: 11px 25px 13px 21px;
+  }
+
   .campaign-card-title {
     font-size: var(--fs-respon-xx-large);
     line-height: 31px;
+  }
+
+  .campaign-card-body-proven {
+    padding: 0;
   }
 
   .campaign-card-text-proven {
     font-size: var(--fs-respon-small);
     line-height: 16px;
   }
+
+  .campaign-card-text-proven {
+    padding-right: 65px;
+  }
+
+  .campaign-card:nth-child(2) {
+    margin-top: 52px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .campaign {
     flex-direction: column;
+    margin-top: 33px;
   }
 
   .campaign-card {
-    width: 80%;
+    width: 75%;
   }
 
   .campaign-card:nth-child(2) {
@@ -77,6 +100,8 @@
   }
 
   .campaign-card:nth-child(3) {
+    width: 90%;
     margin-top: 18px;
   }
 }
+
