@@ -2,12 +2,12 @@
   #LEARN MORE CSS
 \*------------------------------------*/
 .btn-learn-more {
+  display: block;
+  margin-top: 22px;
+  color: var(--secondary-text-color);
   font-weight: var(--fw-extra-bold);
   font-size: var(--fs-x-small);
   line-height: 19px;
-  color: var(--secondary-text-color);
-  margin-top: 22px;
-  display: block;
   transition: all 0.3s ease;
 }
 
@@ -19,5 +19,8 @@
   .btn-learn-more {
     font-size: var(--fs-respon-small);
     margin-top: 10px;
+  }
+  .btn-learn-more {
+    margin-top: 15px;
   }
 }
