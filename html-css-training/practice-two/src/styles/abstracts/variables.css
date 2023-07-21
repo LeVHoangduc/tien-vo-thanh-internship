@@ -3,11 +3,11 @@
   --primary-color: #4ba87d;
   --secondary-color: #fff;
   --menu-toggle-color: #000;
-  
+
   --primary-text-color: #000;
   --white-text-color: #fff;
   --secondary-text-color: #4ba87d;
-  
+
   --primary-bg-color: #fff;
   --secondary-bg-color: #4ba87d;
 
@@ -15,7 +15,13 @@
   /* end color */
 
   /* sizing */
-  --fs-normal : 15px;
+
+  --btn-responsive-media-w: 131px;
+  --btn-responsive-large-w: 143px;
+  --btn-responsive-media-h: 40px;
+  --btn-responsive-large-h: 42px;
+
+  --fs-normal: 15px;
   --fs-x-small: 16px;
   --fs-small: 17px;
   --fs-x-medium: 19px;
@@ -25,17 +31,19 @@
   --fs-xx-large: 59px;
   --fs-huge: 60px;
 
-  --fs-respon-normal: 9px;
-  --fs-respon-x-small: 11px;
-  --fs-respon-small: 12px;
-  --fs-respon-x-medium: 13px;
-  --fs-respon-medium: 14px;
-  --fs-respon-large: 22px;
-  --fs-respon-x-large: 26px;
-  --fs-respon-xx-large: 28px;
-  --fs-respon-huge: 36px;
-  --fs-respon-x-huge: 38px;
-  --fs-respon-xx-huge: 42px;
+  --fs-responsive-normal: 9px;
+  --fs-responsive-x-small: 11px;
+  --fs-responsive-small: 12px;
+  --fs-responsive-x-medium: 13px;
+  --fs-responsive-medium: 14px;
+  --fs-responsive-large: 22px;
+  --fs-responsive-x-large: 26px;
+  --fs-responsive-xx-large: 28px;
+  --fs-responsive-huge: 36px;
+  --fs-responsive-x-huge: 38px;
+  --fs-responsive-xx-huge: 42px;
+
+  --screen-extra-large: 1440px;
 
   --fw-medium: 500;
   --fw-bold: 700;
@@ -45,11 +53,6 @@
   --btn-medium-w: 200px;
   --btn-large-w: 221px;
   --btn-h: 65px;
-
-  --btn-respon-media-w: 131px;
-  --btn-respon-large-w: 143px;
-  --btn-respon-media-h: 40px;
-  --btn-respon-large-h: 42px;
 
   /* end sizing */
 

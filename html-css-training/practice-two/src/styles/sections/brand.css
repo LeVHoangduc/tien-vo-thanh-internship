@@ -8,8 +8,8 @@
 
 .brand-title {
   padding: 0 300px;
-  text-align: center;
   font-size: var(--fs-x-large);
+  text-align: center;
   line-height: 48px;
 }
 
@@ -21,8 +21,8 @@
 
   .brand-title {
     padding: 0 200px;
-    font-size: var(--fs-respon-xx-large);
-    line-height: 36px;  
+    font-size: var(--fs-responsive-xx-large);
+    line-height: 36px;
   }
 }
 
@@ -33,7 +33,7 @@
   }
 
   .brand-title {
-    font-size: var(--fs-respon-x-large);
     padding: 0;
+    font-size: var(--fs-responsive-x-large);
   }
 }

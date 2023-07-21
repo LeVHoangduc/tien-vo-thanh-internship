@@ -2,11 +2,11 @@
   #COMMON CSS
 \*------------------------------------*/
 body {
+  width: 100%;
+  margin: 0 auto;
+  font-size: var(--fs-x-medium);
   font-family: var(--primary-font-family);
   font-weight: var(--fw-medium);
-  font-size: var(--fs-x-medium);
-  width:100%;
-  margin: 0 auto;
 }
 
 .container {
@@ -15,49 +15,51 @@ body {
   overflow: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--secondary-font-family);
   font-weight: var(--fw-black);
 }
 
 .btn {
-  font-size: var(--fs-medium);
-  font-weight: var(--fw-black);
   min-width: var(--btn-medium-w);
   height: var(--btn-h);
-  text-transform: uppercase;
-  cursor: pointer;
+  color: var(--secondary-text-color);
   background-color: var(--primary-bg-color);
   border: none;
-  color: var(--secondary-text-color);
-  transition: all 0.3s ease;
+  font-size: var(--fs-medium);
   font-family: var(--primary-font-family);
+  font-weight: var(--fw-black);
+  text-transform: uppercase;
   letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
-  background-color: var(--secondary-bg-color);
   color: var(--white-text-color);
+  background-color: var(--secondary-bg-color);
 }
 
 .btn-submit {
-  border: none;
   min-width: var(--btn-large-w);
+  color: var(--white-text-color);
   background-color: var(--secondary-bg-color);
-  color: var( --white-text-color);
+  border: none;
 }
 
 .btn-submit:hover {
-  background-color: transparent;
   color: var(--secondary-text-color);
+  background-color: transparent;
   border: 1px solid var(--primary-color);
 }
 
 .main-content {
+  margin: auto;
   background-image: url('../../assets/images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
-  margin: auto;
 }
 
 @media screen and (max-width: 1440px) {
@@ -66,21 +68,21 @@ h1, h2, h3 {
   }
 }
 
-@media screen and (max-width: 1200px) { 
-  .container { 
+@media screen and (max-width: 1200px) {
+  .container {
     padding: 0 20px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .btn {
-    min-width: var(--btn-respon-media-w);
-    height: var(--btn-respon-large-h);
-    font-size: var(--fs-respon-x-medium);
+    min-width: var(--btn-responsive-media-w);
+    height: var(--btn-responsive-large-h);
+    font-size: var(--fs-responsive-x-medium);
   }
 
   .btn-submit {
-    min-width: var(--btn-respon-large-w);
+    min-width: var(--btn-responsive-large-w);
   }
 
   .main-content {
@@ -90,8 +92,8 @@ h1, h2, h3 {
 
 @media screen and (max-width: 576px) {
   .btn {
-    min-width: var(--btn-respon-large-w);
-    height: var(--btn-respon-media-h);
+    min-width: var(--btn-responsive-large-w);
+    height: var(--btn-responsive-media-h);
   }
 
   .main-content {
@@ -99,7 +101,7 @@ h1, h2, h3 {
     background-size: contain;
   }
 
-  .container { 
+  .container {
     padding: 0 10px;
   }
 }

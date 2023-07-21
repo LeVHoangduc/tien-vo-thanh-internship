@@ -14,8 +14,8 @@
   font-weight: var(--fw-extra-bold);
   line-height: 41px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   transition: all 0.1s ease-in;
 }
 
@@ -25,8 +25,8 @@
 
 @media screen and (max-width: 992px) {
   .header-nav-link {
-    font-size: var(--fs-respon-x-small);
     min-width: 71px;
+    font-size: var(--fs-responsive-x-small);
   }
 
   .header-nav-item {
@@ -43,6 +43,3 @@
     min-width: 71px;
   }
 }
-
-
-

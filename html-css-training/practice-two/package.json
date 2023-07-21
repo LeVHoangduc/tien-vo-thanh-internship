@@ -1,7 +1,7 @@
 {
   "name": "ninja-mail",
   "version": "1.0.0",
-  "description": "Build langding page NinjaMail",
+  "description": "Build landing page NinjaMail",
   "scripts": {
     "dev": "parcel ./src/index.html",
     "components": "parcel ./src/page-components/index.html",

@@ -5,8 +5,8 @@
   display: block;
   margin-top: 22px;
   color: var(--secondary-text-color);
-  font-weight: var(--fw-extra-bold);
   font-size: var(--fs-x-small);
+  font-weight: var(--fw-extra-bold);
   line-height: 19px;
   transition: all 0.3s ease;
 }
@@ -17,9 +17,10 @@
 
 @media screen and (max-width: 992px) {
   .btn-learn-more {
-    font-size: var(--fs-respon-small);
     margin-top: 10px;
+    font-size: var(--fs-responsive-small);
   }
+
   .btn-learn-more {
     margin-top: 15px;
   }
