@@ -1,0 +1,63 @@
+:root {
+  /* color */
+  --primary-color: #4ba87d;
+  --secondary-color: #fff;
+  --menu-toggle-color: #000;
+
+  --primary-text-color: #000;
+  --white-text-color: #fff;
+  --secondary-text-color: #4ba87d;
+
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #4ba87d;
+
+  --border-color: #9F9F9F;
+  /* end color */
+
+  /* sizing */
+
+  --btn-responsive-media-w: 131px;
+  --btn-responsive-large-w: 143px;
+  --btn-responsive-media-h: 40px;
+  --btn-responsive-large-h: 42px;
+
+  --fs-normal: 15px;
+  --fs-x-small: 16px;
+  --fs-small: 17px;
+  --fs-x-medium: 19px;
+  --fs-medium: 21px;
+  --fs-large: 34px;
+  --fs-x-large: 44px;
+  --fs-xx-large: 59px;
+  --fs-huge: 60px;
+
+  --fs-responsive-normal: 9px;
+  --fs-responsive-x-small: 11px;
+  --fs-responsive-small: 12px;
+  --fs-responsive-x-medium: 13px;
+  --fs-responsive-medium: 14px;
+  --fs-responsive-large: 22px;
+  --fs-responsive-x-large: 26px;
+  --fs-responsive-xx-large: 28px;
+  --fs-responsive-huge: 36px;
+  --fs-responsive-x-huge: 38px;
+  --fs-responsive-xx-huge: 42px;
+
+  --breakpoint-extra-large: 1440px;
+
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+  --fw-black: 900;
+
+  --btn-medium-w: 200px;
+  --btn-large-w: 221px;
+  --btn-h: 65px;
+
+  /* end sizing */
+
+  /* font */
+  --primary-font-family: 'Raleway', sans-serif;
+  --secondary-font-family: 'Playfair Display', serif;
+  /* end font */
+}

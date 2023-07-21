@@ -1,8 +1,10 @@
 /*------------------------------------*\
   #CONTACTS CSS
 \*------------------------------------*/
-.contact, .contact-member-item, 
-.contact-content, .form-info {
+.contact,
+.contact-member-item,
+.contact-content,
+.form-info {
   display: flex;
   flex-direction: column;
 }
@@ -10,15 +12,15 @@
 .contact {
   justify-content: center;
   align-items: center;
-  margin-top: 133px;
   gap: 37px 0;
+  margin-top: 133px;
 }
 
 .contact-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 32px;
-}   
+}
 
 .contact-content {
   justify-content: center;
@@ -28,8 +30,8 @@
 
 .contact-title {
   padding: 0 94px;
-  text-align: center;
   font-size: var(--fs-x-large);
+  text-align: center;
   line-height: 48px;
 }
 
@@ -48,18 +50,18 @@
   width: 420px;
   height: 65px;
   padding: 0 25px;
+  background-color: var(--primary-bg-color);
   border-radius: 5px;
   border: 1px solid var(--border-color);
-  background-color: var(--primary-bg-color);
   overflow: hidden;
 }
 
 .form-control {
   width: 100%;
   height: 100%;
+  color: var(--primary-text-color);
   border: none;
   outline: none;
-  color: var(--primary-text-color);
   font-size: var(--fs-medium);
   font-weight: var(--fw-medium);
 }
@@ -67,10 +69,10 @@
 .form-control::placeholder {
   color: var(--primary-text-color);
   font-size: var(--fs-medium);
+  font-family: var(--primary-font-family);
   font-weight: var(--fw-medium);
   line-height: 25px;
   letter-spacing: 1px;
-  font-family: var(--primary-font-family);
 }
 
 .form-message {
@@ -93,7 +95,7 @@
   }
 
   .contact-title {
-    font-size: var(--fs-respon-xx-large);
+    font-size: var(--fs-responsive-xx-large);
     line-height: 36px;
   }
 
@@ -106,8 +108,9 @@
     height: 42px;
   }
 
-  .form-control, .form-message {
-    font-size: var(--fs-respon-x-medium);
+  .form-control,
+  .form-message {
+    font-size: var(--fs-responsive-x-medium);
   }
 
   .form-controller {
@@ -115,7 +118,7 @@
   }
 
   .form-control::placeholder {
-    font-size: var(--fs-respon-x-medium);
+    font-size: var(--fs-responsive-x-medium);
     line-height: 15px;
   }
 }
@@ -126,8 +129,8 @@
   }
 
   .contact-title {
-    font-size: var(--fs-respon-x-large);
     padding: 0 90px;
+    font-size: var(--fs-responsive-x-large);
   }
 
   .form-controller {
@@ -159,10 +162,11 @@
 
   .contact-title {
     padding: 0 30px;
-    font-size: var(--fs-respon-x-large);
+    font-size: var(--fs-responsive-x-large);
   }
 
-  .form-controller, .form-info {
+  .form-controller,
+  .form-info {
     flex-direction: column;
     align-items: center;
   }
@@ -175,7 +179,7 @@
   .form-input {
     width: 223px;
   }
-} 
+}
 
 @media screen and (max-width: 320px) {
   .contact-member-item {

@@ -2,10 +2,10 @@
   #CAMPAIGN-CARD CSS
 \*------------------------------------*/
 .campaign-card {
+  align-self: flex-start;
   max-width: 320px;
   width: 100%;
-  align-self: flex-start;
-  background-color: var(--primary-bg-color) ;
+  background-color: var(--primary-bg-color);
 }
 
 .campaign-card-img-wrapper {
@@ -35,7 +35,7 @@
   .campaign-card-img-wrapper {
     height: auto;
   }
-  
+
   .campaign-card-img {
     max-inline-size: 100%;
     block-size: auto;
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 992px) {
   .campaign-card-text {
-    font-size: var(--fs-respon-small);
+    font-size: var(--fs-responsive-small);
     line-height: 16px;
   }
 }

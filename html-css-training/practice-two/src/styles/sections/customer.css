@@ -8,11 +8,11 @@
 }
 
 .customer-container {
+  position: relative;
   display: flex;
-  max-width: 944px;
   justify-content: center;
   align-items: center;
-  position: relative;
+  max-width: 944px;
 }
 
 .customer-image {
@@ -53,14 +53,14 @@
   }
 
   .customer-heading {
-    font-size: var(--fs-respon-x-huge);
+    font-size: var(--fs-responsive-x-huge);
     line-height: 51px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .customer-heading {
-    font-size: var(--fs-respon-large);
+    font-size: var(--fs-responsive-large);
     line-height: 29px;
   }
 }

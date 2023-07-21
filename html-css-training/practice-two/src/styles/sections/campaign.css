@@ -3,19 +3,19 @@
 \*------------------------------------*/
 .campaign {
   display: flex;
+  gap: 0 47px;
   width: 100%;
   margin-top: 100px;
-  gap: 0 47px;
 }
 
 .campaign-card:nth-child(2) {
-  margin-top: 88px;
   align-self: flex-end;
+  margin-top: 88px;
 }
 
 .campaign-card:nth-child(3) {
-  margin-top: 38px;
   align-self: center;
+  margin-top: 38px;
   background-color: transparent;
 }
 
@@ -51,7 +51,7 @@
     gap: 0 31px;
     margin-top: 70px;
   }
-  
+
   .campaign-card-body-proven {
     width: 102%;
   }
@@ -63,7 +63,7 @@
   }
 
   .campaign-card-title {
-    font-size: var(--fs-respon-xx-large);
+    font-size: var(--fs-responsive-xx-large);
     line-height: 31px;
   }
 
@@ -72,7 +72,7 @@
   }
 
   .campaign-card-text-proven {
-    font-size: var(--fs-respon-small);
+    font-size: var(--fs-responsive-small);
     line-height: 16px;
   }
 
@@ -104,4 +104,3 @@
     margin-top: 18px;
   }
 }
-

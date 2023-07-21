@@ -2,10 +2,10 @@
   #CONTACT-CARD CSS
 \*------------------------------------*/
 .contact-member-item {
-  max-width: 340px;
-  cursor: pointer;  
-  transition: all 0.3s ease;
   position: relative;
+  max-width: 340px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .contact-avatar {
@@ -18,7 +18,8 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  padding: 0 0 20px 25px
+  padding-bottom: 20px;
+  padding-left: 25px;
 }
 
 .contact-member-name {
@@ -39,21 +40,22 @@
   .contact-avatar {
     max-inline-size: 100%;
     block-size: auto;
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) {
   .contact-member-name {
     margin-bottom: 5px;
-    font-size: var(--fs-respon-large);
+    font-size: var(--fs-responsive-large);
     line-height: 16px;
   }
 
   .contact-member-desc {
-    font-size: var(--fs-respon-small);
+    font-size: var(--fs-responsive-small);
   }
 
   .contact-member-content {
-    padding: 0 0 9px 20px;
+    padding-bottom: 9px;
+    padding-left: 20px;
   }
-} 
+}

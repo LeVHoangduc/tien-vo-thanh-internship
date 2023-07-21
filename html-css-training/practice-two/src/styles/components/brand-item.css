@@ -3,7 +3,7 @@
 \*------------------------------------*/
 .brand-container {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-top: 65px;
   padding: 0 94px;
 }
@@ -32,12 +32,12 @@
 
 @media screen and (max-width: 576px) {
   .brand-container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     gap: 30px;
     padding: 0;
   }
-  
+
   .brand-item:nth-child(1) {
     grid-area: 1 / 2;
   }

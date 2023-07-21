@@ -17,11 +17,11 @@
 }
 
 .started-title {
-  color: var(--white-text-color);
-  text-align: center;
-  font-size: var(--fs-huge);
-  line-height: 80px;
   margin-bottom: 60px;
+  color: var(--white-text-color);
+  font-size: var(--fs-huge);
+  text-align: center;
+  line-height: 80px;
 }
 
 .btn-started {
@@ -34,7 +34,7 @@
   }
 
   .started-title {
-    font-size: var(--fs-respon-xx-huge);
+    font-size: var(--fs-responsive-xx-huge);
     line-height: 56px;
   }
 

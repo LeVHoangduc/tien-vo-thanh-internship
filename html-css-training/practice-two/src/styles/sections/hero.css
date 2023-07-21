@@ -12,11 +12,11 @@
 }
 
 .hero-container {
+  position: relative;
   display: flex;
   align-items: center;
   width: 100%;
   height: 383px;
-  position: relative;
 }
 
 .hero-content {
@@ -59,27 +59,27 @@
 
 .btn-hero-wrapper {
   display: flex;
-  margin-top: 35px;
   gap: 45px;
+  margin-top: 35px;
 }
 
 .btn-try-now {
   color: var(--white-text-color);
-  border: none;
   background-color: var(--secondary-bg-color);
+  border: none;
 }
 
 .btn-try-now:hover {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
   background-color: transparent;
+  border: 1px solid var(--primary-color);
 }
 
 .btn-hero-demo {
-  border: 3px solid var(--primary-color);
   color: var(--primary-color);
-  line-height: 25px;
+  border: 3px solid var(--primary-color);
   background-color: var(--primary-bg-color);
+  line-height: 25px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -104,19 +104,19 @@
 
   .hero-title {
     margin-top: 20px;
-    font-size: var(--fs-respon-x-huge);
+    font-size: var(--fs-responsive-x-huge);
     line-height: 46px;
   }
 
   .hero-text {
     margin-top: 17px;
-    font-size: var(--fs-respon-small);
+    font-size: var(--fs-responsive-small);
     line-height: 16px;
   }
 
   .btn-hero-wrapper {
-    margin-top: 25px;
     gap: 29px;
+    margin-top: 25px;
   }
 
   .hero-photo {
@@ -133,7 +133,7 @@
   }
 
   .hero-title {
-    font-size: var(--fs-respon-huge);
+    font-size: var(--fs-responsive-huge);
   }
 
   .hero-text {

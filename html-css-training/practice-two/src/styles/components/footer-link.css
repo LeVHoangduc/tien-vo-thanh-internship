@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 992px) {
   .footer-link {
-    font-size: var(--fs-respon-small);
+    font-size: var(--fs-responsive-small);
     line-height: 14px;
   }
 }
