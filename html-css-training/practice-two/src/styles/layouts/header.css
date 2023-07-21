@@ -9,7 +9,7 @@
 
 .header {
   justify-content: space-between;
-  max-width: var(--breakpoint-extra-large);
+  max-width: var(--screen-extra-large);
   height: 102px;
   padding: 0px 100px;
   margin: auto;
