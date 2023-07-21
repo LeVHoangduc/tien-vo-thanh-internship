@@ -10,7 +10,7 @@
 
 
 ## Information: 
-- Time line: 13/07/2023 -> 18/07/2023
+- Time line: 13/07/2023 -> 20/07/2023
 - Editor: Visual Studio Code
 
 - Support cross browser: 
@@ -87,7 +87,7 @@ practice-two
             |-- ...
         |-- ...
     |-- styles
-        |-- abtracts
+        |-- abstracts
             |-- index.css
             |-- variables.css
         |-- bases
@@ -105,8 +105,8 @@ practice-two
         |-- sections
             |-- index.css
             |-- ...
+        |-- index.css
     |-- index.html
-    |-- index.css
 |-- .editorconfig.js
 |-- .gitignore
 |-- .posthtmlrc
