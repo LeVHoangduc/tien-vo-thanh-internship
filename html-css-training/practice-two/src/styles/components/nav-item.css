@@ -26,7 +26,7 @@
 @media screen and (max-width: 992px) {
   .header-nav-link {
     min-width: 71px;
-    font-size: var(--fs-responsive-x-small);
+    font-size: var(--fs-responsive-1x-small);
   }
 
   .header-nav-item {
@@ -41,5 +41,6 @@
 
   .header-nav-link {
     min-width: 71px;
+    height: 25px;
   }
 }

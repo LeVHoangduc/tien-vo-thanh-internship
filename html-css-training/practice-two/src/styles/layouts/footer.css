@@ -31,7 +31,7 @@
   justify-content: space-between;
   padding: 39px 94px 0;
   color: var(--primary-text-color);
-  font-size: var(--fs-xx-small);
+  font-size: var(--fs-2x-small);
   font-weight: var(--fw-bold);
 }
 
@@ -60,7 +60,7 @@
 
   .footer-bottom {
     padding: 25px 58px 0 58px;
-    font-size: var(--fs-responsive-xx-small);
+    font-size: var(--fs-responsive-2x-small);
   }
 }
 

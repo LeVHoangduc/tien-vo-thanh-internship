@@ -29,7 +29,7 @@
 
 .hero-title {
   color: var(--primary-text-color);
-  font-size: var(--fs-xx-large);
+  font-size: var(--fs-2x-large);
 }
 
 .hero-text {
@@ -102,7 +102,7 @@
 
   .hero-title {
     margin-top: 20px;
-    font-size: var(--fs-responsive-x-huge);
+    font-size: var(--fs-responsive-4x-large);
   }
 
   .hero-text {
@@ -131,7 +131,7 @@
   }
 
   .hero-title {
-    font-size: var(--fs-responsive-huge);
+    font-size: var(--fs-responsive-3x-large);
   }
 
   .hero-text {
