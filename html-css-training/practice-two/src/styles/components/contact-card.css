@@ -26,14 +26,12 @@
   color: var(--white-text-color);
   font-size: var(--fs-large);
   font-weight: var(--fw-black);
-  line-height: 40px;
 }
 
 .contact-member-desc {
   color: var(--white-text-color);
-  font-size: var(--fs-x-medium);
+  font-size: var(--fs-normal);
   font-weight: var(--fw-bold);
-  line-height: 22px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -47,7 +45,6 @@
   .contact-member-name {
     margin-bottom: 5px;
     font-size: var(--fs-responsive-large);
-    line-height: 16px;
   }
 
   .contact-member-desc {

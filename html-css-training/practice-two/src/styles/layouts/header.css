@@ -29,7 +29,6 @@
   background-color: var(--secondary-bg-color);
   font-size: var(--fs-small);
   font-weight: var(--fw-extra-bold);
-  line-height: 21px;
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: all 0.3s ease;
