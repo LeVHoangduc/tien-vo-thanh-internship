@@ -41,5 +41,6 @@
 
   .header-nav-link {
     min-width: 71px;
+    height: 25px;
   }
 }
