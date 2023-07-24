@@ -107,7 +107,7 @@ section {
 }
 
 body {
-  line-height: 1;
+  line-height: var(--line-height-default);
 }
 
 ol,
@@ -135,8 +135,4 @@ table {
 
 a {
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }

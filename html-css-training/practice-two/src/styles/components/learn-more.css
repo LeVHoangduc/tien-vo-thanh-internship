@@ -2,12 +2,11 @@
   #LEARN MORE CSS
 \*------------------------------------*/
 .btn-learn-more {
-  display: block;
+  display: inline-block;
   margin-top: 22px;
   color: var(--secondary-text-color);
   font-size: var(--fs-x-small);
   font-weight: var(--fw-extra-bold);
-  line-height: 19px;
   transition: all 0.3s ease;
 }
 

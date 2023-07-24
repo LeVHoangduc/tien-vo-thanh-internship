@@ -19,10 +19,12 @@
   - Firefox (114.0.2)
 
 - Screens ([refer here](https://getbootstrap.com/docs/5.0/layout/breakpoints/))
-  - Portrait tablets and large phones (Small devices, 320px and up) 
-  - Medium devices (tablets, 768px and up)
-  - Large devices (desktops, 992px and up)
-  - XX-Large devices (larger desktops, 1400px and up)
+  - XX-Large devices (larger desktops, 1400px and down)
+  - X-Large devices (large desktops, 1200px and down)
+  - Large devices (desktops, 992px and down)
+  - Medium devices (tablets, 768px and down)
+  - Small devices (landscape phones, 576px and down)
+  - Portrait tablets and large phones (Small devices, 320px and down) 
 
 ## Project convention: 
 ### Branch name format

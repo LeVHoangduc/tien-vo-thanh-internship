@@ -32,7 +32,6 @@
   padding: 0 94px;
   font-size: var(--fs-x-large);
   text-align: center;
-  line-height: 48px;
 }
 
 .form-controller {
@@ -71,7 +70,6 @@
   font-size: var(--fs-medium);
   font-family: var(--primary-font-family);
   font-weight: var(--fw-medium);
-  line-height: 25px;
   letter-spacing: 1px;
 }
 
@@ -80,7 +78,6 @@
   color: var(--primary-color);
   font-size: var(--fs-medium);
   font-weight: var(--fw-medium);
-  line-height: 25px;
   letter-spacing: 1px;
 }
 
@@ -96,7 +93,7 @@
 
   .contact-title {
     font-size: var(--fs-responsive-xx-large);
-    line-height: 36px;
+    line-height: var(--line-height-normal);
   }
 
   .form-info {
@@ -110,7 +107,7 @@
 
   .form-control,
   .form-message {
-    font-size: var(--fs-responsive-x-medium);
+    font-size: var(--fs-responsive-normal);
   }
 
   .form-controller {
@@ -118,7 +115,7 @@
   }
 
   .form-control::placeholder {
-    font-size: var(--fs-responsive-x-medium);
+    font-size: var(--fs-responsive-normal);
     line-height: 15px;
   }
 }
@@ -130,11 +127,11 @@
 
   .contact-title {
     padding: 0 90px;
-    font-size: var(--fs-responsive-x-large);
+    font-size: var(--fs-responsive-xx-large);
   }
 
   .form-controller {
-    gap: 7px;
+    gap: 17px;
   }
 
   .form-message {

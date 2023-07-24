@@ -1,10 +1,17 @@
 /*------------------------------------*\
   #COMMON CSS
 \*------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
-  font-size: var(--fs-x-medium);
   font-family: var(--primary-font-family);
   font-weight: var(--fw-medium);
 }
@@ -78,7 +85,7 @@ h3 {
   .btn {
     min-width: var(--btn-responsive-media-w);
     height: var(--btn-responsive-large-h);
-    font-size: var(--fs-responsive-x-medium);
+    font-size: var(--fs-responsive-normal);
   }
 
   .btn-submit {
