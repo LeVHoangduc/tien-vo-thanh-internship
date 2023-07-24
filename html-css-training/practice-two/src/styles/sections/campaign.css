@@ -22,7 +22,7 @@
 .campaign-card-title {
   margin-bottom: 22px;
   color: var(--primary-text-color);
-  font-size: var(--fs-x-large);
+  font-size: var(--fs-1x-large);
 }
 
 .campaign-card-body-proven {
@@ -42,7 +42,7 @@
   .campaign-card-title {
     margin-bottom: 22px;
     color: var(--primary-text-color);
-    font-size: var(--fs-x-large);
+    font-size: var(--fs-1x-large);
   }
 
   .campaign {
@@ -61,7 +61,7 @@
   }
 
   .campaign-card-title {
-    font-size: var(--fs-responsive-xx-large);
+    font-size: var(--fs-responsive-2x-large);
   }
 
   .campaign-card-body-proven {

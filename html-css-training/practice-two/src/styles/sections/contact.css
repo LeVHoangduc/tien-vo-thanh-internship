@@ -30,7 +30,7 @@
 
 .contact-title {
   padding: 0 94px;
-  font-size: var(--fs-x-large);
+  font-size: var(--fs-1x-large);
   text-align: center;
 }
 
@@ -92,7 +92,7 @@
   }
 
   .contact-title {
-    font-size: var(--fs-responsive-xx-large);
+    font-size: var(--fs-responsive-2x-large);
     line-height: var(--line-height-normal);
   }
 
@@ -127,7 +127,7 @@
 
   .contact-title {
     padding: 0 90px;
-    font-size: var(--fs-responsive-xx-large);
+    font-size: var(--fs-responsive-2x-large);
   }
 
   .form-controller {
@@ -159,7 +159,7 @@
 
   .contact-title {
     padding: 0 30px;
-    font-size: var(--fs-responsive-x-large);
+    font-size: var(--fs-responsive-1x-large);
   }
 
   .form-controller,

@@ -16,27 +16,27 @@
 
   /* sizing */
 
-  --fs-xx-small: 1.5rem;
-  --fs-x-small: 1.6rem;
+  --fs-2x-small: 1.5rem;
+  --fs-1x-small: 1.6rem;
   --fs-small: 1.7rem;
   --fs-normal: 1.9rem;
   --fs-medium: 2.1rem;
   --fs-large: 3.4rem;
-  --fs-x-large: 4.4rem;
-  --fs-xx-large: 5.9rem;
-  --fs-huge: 6rem;
+  --fs-1x-large: 4.4rem;
+  --fs-2x-large: 5.9rem;
+  --fs-3x-large: 6rem;
 
-  --fs-responsive-xx-small: .9rem;
-  --fs-responsive-x-small: 1.1rem;
+  --fs-responsive-2x-small: .9rem;
+  --fs-responsive-1x-small: 1.1rem;
   --fs-responsive-small: 1.2rem;
   --fs-responsive-normal: 1.3rem;
   --fs-responsive-medium: 1.4rem;
   --fs-responsive-large: 2.2rem;
-  --fs-responsive-x-large: 2.6rem;
-  --fs-responsive-xx-large: 2.8rem;
-  --fs-responsive-huge: 3.6rem;
-  --fs-responsive-x-huge: 3.8rem;
-  --fs-responsive-xx-huge: 4.2rem;
+  --fs-responsive-1x-large: 2.6rem;
+  --fs-responsive-2x-large: 2.8rem;
+  --fs-responsive-3x-large: 3.6rem;
+  --fs-responsive-4x-large: 3.8rem;
+  --fs-responsive-5x-large: 4.2rem;
 
   --btn-medium-w: 200px;
   --btn-large-w: 221px;

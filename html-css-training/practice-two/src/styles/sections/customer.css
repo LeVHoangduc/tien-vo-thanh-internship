@@ -31,7 +31,7 @@
 
 .customer-heading {
   color: var(--white-text-color);
-  font-size: var(--fs-huge);
+  font-size: var(--fs-3x-large);
   font-weight: var(--fw-black);
   line-height: var(--line-height-normal);
 }
@@ -53,7 +53,7 @@
   }
 
   .customer-heading {
-    font-size: var(--fs-responsive-x-huge);
+    font-size: var(--fs-responsive-4x-large);
   }
 }
 

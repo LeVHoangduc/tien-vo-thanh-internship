@@ -19,7 +19,7 @@
 .started-title {
   margin-bottom: 60px;
   color: var(--white-text-color);
-  font-size: var(--fs-huge);
+  font-size: var(--fs-3x-large);
   text-align: center;
   line-height: var(--line-height-normal);
 }
@@ -34,7 +34,7 @@
   }
 
   .started-title {
-    font-size: var(--fs-responsive-xx-huge);
+    font-size: var(--fs-responsive-5x-large);
   }
 }
 

@@ -69,7 +69,7 @@
   .header-nav-auth {
     min-width: 110px;
     height: 25px;
-    font-size: var(--fs-responsive-x-small);
+    font-size: var(--fs-responsive-1x-small);
   }
 
   .header-nav-list {
@@ -99,7 +99,7 @@
   .header-nav-auth {
     min-width: 110px;
     height: 25px;
-    font-size: var(--fs-responsive-x-small);
+    font-size: var(--fs-responsive-1x-small);
   }
 
   .menu-toggle {
