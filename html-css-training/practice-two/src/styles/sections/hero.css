@@ -106,8 +106,9 @@
   }
 
   .hero-text {
+    padding-right: 0;
     margin-top: 17px;
-    font-size: var(--fs-responsive-small);
+    font-size: var(--fs-responsive-medium);
     line-height: var(--line-height-normal);
   }
 
@@ -126,7 +127,7 @@
 @media screen and (max-width: 576px) {
   .hero-content {
     top: -80px;
-    padding-right: 230px;
+    padding-right: 220px;
   }
 
   .hero-title {
