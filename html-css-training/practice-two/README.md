@@ -10,7 +10,7 @@
 
 
 ## Information: 
-- Time line: 13/07/2023 -> 20/07/2023
+- Time line: 13/07/2023 -> 21/07/2023
 - Editor: Visual Studio Code
 
 - Support cross browser: 
