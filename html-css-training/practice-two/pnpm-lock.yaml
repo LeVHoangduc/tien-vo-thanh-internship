@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  html-inspector:
-    specifier: ^0.8.2
-    version: 0.8.2
   parcel:
     specifier: ^2.9.3
     version: 2.9.3
@@ -1173,15 +1170,6 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: false
 
-  /colors@1.4.0:
-    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
-    engines: {node: '>=0.1.90'}
-    dev: false
-
-  /commander@2.20.3:
-    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
-    dev: false
-
   /commander@7.2.0:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
     engines: {node: '>= 10'}
@@ -1329,15 +1317,6 @@ packages:
   /has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
-    dev: false
-
-  /html-inspector@0.8.2:
-    resolution: {integrity: sha512-6i1HuN6ZsGMWrdXD5deU+iN84yU4RWCKKMk5YT5lX5+gNI/xTF8Wyhf7NN1A8zm6Xm7fT6cvIgdGAdNVxAUsog==}
-    hasBin: true
-    dependencies:
-      colors: 1.4.0
-      commander: 2.20.3
-      shelljs: 0.3.0
     dev: false
 
   /htmlnano@2.0.4(svgo@2.8.0):
@@ -1786,12 +1765,6 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
-    dev: false
-
-  /shelljs@0.3.0:
-    resolution: {integrity: sha512-Ny0KN4dyT8ZSCE0frtcbAJGoM/HTArpyPkeli1/00aYfm0sbD/Gk/4x7N2DP9QKGpBsiQH7n6rpm1L79RtviEQ==}
-    engines: {node: '>=0.8.0'}
-    hasBin: true
     dev: false
 
   /source-map@0.6.1:
