@@ -4,7 +4,7 @@
 .customer {
   display: flex;
   justify-content: center;
-  margin-top: 262px;
+  padding-top: 9%;
 }
 
 .customer-container {
@@ -41,15 +41,11 @@
     max-inline-size: 100%;
     block-size: auto;
   }
-
-  .customer {
-    margin-top: 130px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .customer {
-    margin-top: 185px;
+    padding-top: 15%;
   }
 
   .customer-image {
@@ -66,14 +62,16 @@
 }
 
 @media screen and (max-width: 576px) {
+  .customer {
+    padding-top: 25%;
+  }
+  
   .customer-heading {
     font-size: var(--fs-responsive-large);
   }
 }
 
 @media screen and (max-width: 320px) {
-
-
   .btn-customer {
     min-width: 65px;
     height: 21px;

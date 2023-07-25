@@ -5,8 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 366px;
   background-color: var(--primary-color);
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .started-container {
@@ -17,29 +18,30 @@
 }
 
 .started-title {
+  max-width: 700px;
   margin-bottom: 60px;
   color: var(--white-text-color);
   font-size: var(--fs-3x-large);
   text-align: center;
   line-height: var(--line-height-normal);
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
 }
 
-.btn-started {
-  transform: translateY(-15px);
+.btn-started:hover {
+  border: 1px solid var(--secondary-color);
 }
 
 @media screen and (max-width: 992px) {
-  .started {
-    height: 240px;
-  }
-
   .started-title {
     font-size: var(--fs-responsive-5x-large);
   }
 }
 
 @media screen and (max-width: 576px) {
-  .started {
-    height: 290px;
+  .started-title {
+    white-space: normal;
+    max-height: 150px;
   }
 }

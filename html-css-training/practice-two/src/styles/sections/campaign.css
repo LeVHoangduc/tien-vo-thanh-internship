@@ -5,7 +5,8 @@
   display: flex;
   gap: 0 47px;
   width: 100%;
-  margin-top: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .campaign-card:nth-child(2) {
@@ -47,7 +48,6 @@
 
   .campaign {
     gap: 0 27px;
-    margin-top: 70px;
   }
 
   .campaign-card-body-proven {
@@ -85,7 +85,7 @@
 @media screen and (max-width: 576px) {
   .campaign {
     flex-direction: column;
-    margin-top: 33px;
+    padding-top: 15%;
   }
 
   .campaign-card {
