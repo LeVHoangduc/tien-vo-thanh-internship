@@ -2,7 +2,8 @@
   #NAV-ITEM CSS
 \*------------------------------------*/
 .header-nav-item {
-  padding: 38px 0 44px 0;
+  padding-top: 28px;
+  padding-bottom: 33px;
 }
 
 .header-nav-link {
@@ -26,6 +27,7 @@
 @media screen and (max-width: 992px) {
   .header-nav-link {
     min-width: 71px;
+    height: 25px;
     font-size: var(--fs-responsive-1x-small);
   }
 
@@ -41,6 +43,5 @@
 
   .header-nav-link {
     min-width: 71px;
-    height: 25px;
   }
 }

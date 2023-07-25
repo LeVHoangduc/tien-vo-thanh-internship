@@ -46,12 +46,12 @@
   }
 
   .campaign {
-    gap: 0 31px;
+    gap: 0 27px;
     margin-top: 70px;
   }
 
   .campaign-card-body-proven {
-    width: 102%;
+    width: 100%;
   }
 }
 
@@ -74,7 +74,7 @@
   }
 
   .campaign-card-text-proven {
-    padding-right: 65px;
+    padding-right: 20px;
   }
 
   .campaign-card:nth-child(2) {

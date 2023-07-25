@@ -49,9 +49,3 @@
     line-height: var(--line-height-normal);
   }
 }
-
-@media screen and (max-width: 768px) {
-  .campaign-card {
-    width: 90%;
-  }
-}
