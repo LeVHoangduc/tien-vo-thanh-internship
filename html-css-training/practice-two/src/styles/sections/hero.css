@@ -97,6 +97,7 @@
 
   .hero-content {
     top: -20px;
+    left: 10px;
     padding-right: 180px;
   }
 
@@ -128,6 +129,7 @@
   .hero-content {
     top: -80px;
     padding-right: 220px;
+    left: 0;
   }
 
   .hero-title {

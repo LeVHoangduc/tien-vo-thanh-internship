@@ -48,6 +48,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .customer {
+    margin-top: 185px;
+  }
+
+  .customer-image {
+    max-inline-size: 85%;
+  }
+
   .customer-content {
     gap: 40px 0;
   }
@@ -64,6 +72,8 @@
 }
 
 @media screen and (max-width: 320px) {
+
+
   .btn-customer {
     min-width: 65px;
     height: 21px;
