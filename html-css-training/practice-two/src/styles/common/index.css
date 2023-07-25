@@ -17,14 +17,12 @@ body {
 }
 
 .container {
-  max-width: 1088px;
+  max-width: var(--screen-extra-large);
   margin: 0 auto;
-  overflow: hidden;
+  padding: 0 176px;
 }
 
-h1,
-h2,
-h3 {
+h1, h2 {
   font-family: var(--secondary-font-family);
   font-weight: var(--fw-black);
 }

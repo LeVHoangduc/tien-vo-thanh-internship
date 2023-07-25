@@ -9,14 +9,14 @@
 
 .header {
   justify-content: space-between;
-  max-width: var(--screen-extra-large);
-  height: 102px;
-  padding: 0px 100px;
   margin: auto;
+  padding: 0px 100px;
 }
 
 .header-nav-list {
   gap: 0 24px;
+  padding-top: 28px;
+  padding-bottom: 33px;
 }
 
 .header-nav-auth {
@@ -89,10 +89,10 @@
     top: 0;
     right: 0;
     bottom: 0;
+    display: none;
     flex-direction: column;
     width: 60%;
     background-color: var(--primary-bg-color);
-    transform: translateX(100%);
     transition: all 0.4s ease-in-out;
   }
 
@@ -110,6 +110,6 @@
   }
 
   .menu:hover .header-nav-list {
-    transform: translateX(0);
+    display: flex;
   }
 }
